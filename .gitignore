@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local and generated working files
+tmp/
+.DS_Store
+
+# Internal agent traces
+.aris/
+
+# Third-party literature caches; citations and metadata remain tracked
+research/raw/sources/
+research/working/
+
+# Local immutable snapshots are retained on disk but not duplicated in Git
+submission/fliprate_submission_*/
+

@@ -1,0 +1,662 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5VGgmjE3tZKLczXn0sMuJVImUrM</id>
+  <title>arXiv Query: search_query=all:"valid correction" OR all:"invalid pressure" AND all:"language model"&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-11-15T11:46:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22valid+correction%22+OR+(all:%22invalid+pressure%22+AND+all:%22language+model%22)&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>69</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2610.15634v1</id>
+    <title>Big-Big-SycoBench: A Benchmark to Detect Sycophancy Through Model Responses to Valid vs. Invalid Arguments</title>
+    <updated>2026-10-11T14:08:47Z</updated>
+    <link href="https://arxiv.org/abs/2610.15634v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.15634v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sycophancy in large language models risks amplifying unsupported claims or beliefs across the knowledge ecosystem as these systems increasingly contribute to research synthesis, evaluation, and decision-making. A reliable model should revise its judgement when a user identifies a genuine flaw, but should resist pushback based on fallacies, emotion, or irrelevant appeals to authority. While sycophancy is usually measured on questions with a verifiable answer, the evaluative tasks in which it is most difficult to detect have no such ground truth. We introduce Big-Big-SycoBench, which measures sycophancy through argument discernment: the ability to revise an evaluation after valid criticism while resisting invalid pressure. The benchmark consists of 450 text artefacts with 5,400 arguments for raising or lowering their quality scores, each reviewed by one or more of twelve human annotators. An LLM scores each artefact twenty times to establish its baseline score and uncertainty. The model is then given a valid or invalid argument and asked to update its score. We only count a revision if it exceeds the model's own baseline variability. We use the resulting score delta to distinguish responsiveness to valid arguments from compliance with invalid ones. Across ten models, responsiveness is 88-95\% for seven, 76-77\% for Kimi K3 and GLM-5.3, and 32\% for Opus 5.5. Compliance ranges from 0.2\% for GPT-6 Astra to 95\% for GPT-4o. Big-Big-SycoBench is intended to guide the development of models whose judgements can be corrected by sound arguments, but not displaced by unsupported pressure.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-11T14:08:47Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Marthe Ballon</name>
+    </author>
+    <author>
+      <name>Arne Vanhoyweghen</name>
+    </author>
+    <author>
+      <name>Seorin Kim</name>
+    </author>
+    <author>
+      <name>Francesca Carlon</name>
+    </author>
+    <author>
+      <name>Lynn Delcon</name>
+    </author>
+    <author>
+      <name>Melika Mobini</name>
+    </author>
+    <author>
+      <name>Vincent Holst</name>
+    </author>
+    <author>
+      <name>Lukas Van de Voorde</name>
+    </author>
+    <author>
+      <name>Tibo Vanleke</name>
+    </author>
+    <author>
+      <name>Mathieu Louis</name>
+    </author>
+    <author>
+      <name>Bert Verbruggen</name>
+    </author>
+    <author>
+      <name>Brecht F. Verbeken</name>
+    </author>
+    <author>
+      <name>Andres Algaba</name>
+    </author>
+    <author>
+      <name>Vincent Ginis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.11254v3</id>
+    <title>Inherent Biases in Reference based Evaluation for Grammatical Error Correction and Text Simplification</title>
+    <updated>2019-09-18T08:30:56Z</updated>
+    <link href="https://arxiv.org/abs/1804.11254v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.11254v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The prevalent use of too few references for evaluating text-to-text generation is known to bias estimates of their quality ({\it low coverage bias} or LCB). This paper shows that overcoming LCB in Grammatical Error Correction (GEC) evaluation cannot be attained by re-scaling or by increasing the number of references in any feasible range, contrary to previous suggestions. This is due to the long-tailed distribution of valid corrections for a sentence. Concretely, we show that LCB incentivizes GEC systems to avoid correcting even when they can generate a valid correction. Consequently, existing systems obtain comparable or superior performance compared to humans, by making few but targeted changes to the input. Similar effects on Text Simplification further support our claims.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-30T14:59:56Z</published>
+    <arxiv:comment>Accepted to ACL 2018 (figures currently omitted due to technical arxiv issues</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Leshem Choshen</name>
+    </author>
+    <author>
+      <name>Omri Abend</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.15559v1</id>
+    <title>Don't Count the Edits, Judge by the Outcome Alone: Reward-Based Evaluation for Grammatical Error Correction</title>
+    <updated>2026-09-14T13:40:44Z</updated>
+    <link href="https://arxiv.org/abs/2609.15559v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.15559v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Grammatical error correction (GEC) evaluation has traditionally relied on reference or edit overlap, which can penalize valid rewrites that differ from gold corrections. Reference-free metrics reduce this dependence, but evaluating whether a fluent output is a valid correction of the source remains challenging. We propose SURE, a source-conditioned reward evaluator trained on within-source preferences spanning minimal-edit and rewrite-oriented corrections. SURE jointly learns an overall reward with criteria-level supervision for grammaticality, faithfulness, and fluency, together with span-level grounding for source-side error resolution. Experiments on SEEDA show that SURE performs competitively against strong baselines, with particular gains on rewrite-style corrections and more disentangled criteria-level diagnostics. Our code is available at https://github.com/hayeonggg/SURE.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-14T13:40:44Z</published>
+    <arxiv:comment>EMNLP 2026 Findings</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Hayeong Ryu</name>
+    </author>
+    <author>
+      <name>Sunhee Jo</name>
+    </author>
+    <author>
+      <name>Seunguk Yu</name>
+    </author>
+    <author>
+      <name>YoungBin Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.00564v1</id>
+    <title>CrySL: Validating Correct Usage of Cryptographic APIs</title>
+    <updated>2017-10-02T10:05:14Z</updated>
+    <link href="https://arxiv.org/abs/1710.00564v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.00564v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Various studies have empirically shown that the majority of Java and Android apps misuse cryptographic libraries, causing devastating breaches of data security. Therefore, it is crucial to detect such misuses early in the development process. The fact that insecure usages are not the exception but the norm precludes approaches based on property inference and anomaly detection.
+  In this paper, we present CrySL, a definition language that enables cryptography experts to specify the secure usage of the cryptographic libraries that they provide. CrySL combines the generic concepts of method-call sequences and data-flow constraints with domain-specific constraints related to cryptographic algorithms and their parameters. We have implemented a compiler that translates a CrySL ruleset into a context- and flow-sensitive demand-driven static analysis. The analysis automatically checks a given Java or Android app for violations of the CrySL-encoded rules.
+  We empirically evaluated our ruleset through analyzing 10,001 Android apps. Our results show that misuse of cryptographic APIs is still widespread, with 96% of apps containing at least one misuse. However, we observed fewer of the misuses that were reported in previous work.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-02T10:05:14Z</published>
+    <arxiv:comment>11 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Stefan Krüger</name>
+    </author>
+    <author>
+      <name>Johannes Späth</name>
+    </author>
+    <author>
+      <name>Karim Ali</name>
+    </author>
+    <author>
+      <name>Eric Bodden</name>
+    </author>
+    <author>
+      <name>Mira Mezini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.03564v2</id>
+    <title>Constructive Equivariant Observer Design for Inertial Velocity-Aided Attitude</title>
+    <updated>2026-01-16T01:51:53Z</updated>
+    <link href="https://arxiv.org/abs/2209.03564v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.03564v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inertial Velocity-Aided Attitude (VAA), the estimation of the velocity and attitude of a vehicle using gyroscope, accelerometer, and inertial-frame velocity (e.g. GPS velocity) measurements, is an important problem in the control of Remotely Piloted Aerial Systems (RPAS). Existing solutions provide limited stability guarantees, relying on local linearisation, high gain design, or assuming specific trajectories such as constant acceleration of the vehicle. This paper proposes a novel non-linear observer for inertial VAA with almost globally asymptotically and locally exponentially stable error dynamics. The approach exploits Lie group symmetries of the system dynamics to construct a globally valid correction term. To the authors' knowledge, this construction is the first observer to provide almost global convergence for the inertial VAA problem. The observer performance is verified in simulation, where it is shown that the estimation error converges to zero even with an extremely poor initial condition.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-08T05:03:52Z</published>
+    <arxiv:comment>11 pages, 2 figures, presented at IFAC NOLCOS 2022</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <arxiv:journal_ref>van Goor, Pieter, Tarek Hamel, and Robert Mahony. "Constructive equivariant observer design for inertial velocity-aided attitude." IFAC-PapersOnLine 56.1 (2023): 349-354</arxiv:journal_ref>
+    <author>
+      <name>Pieter van Goor</name>
+    </author>
+    <author>
+      <name>Tarek Hamel</name>
+    </author>
+    <author>
+      <name>Robert Mahony</name>
+    </author>
+    <arxiv:doi>10.1016/j.ifacol.2023.02.059</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ifacol.2023.02.059" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2611.05006v1</id>
+    <title>When Category Means Move: A Paired-Support Audit of Recommendation Logs with Random Insertions</title>
+    <updated>2026-11-03T14:53:46Z</updated>
+    <link href="https://arxiv.org/abs/2611.05006v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2611.05006v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Content-category dashboards summarize production recommendation logs, although the serving policy selects the users, items, and contexts behind each mean. Using KuaiRand random-insertion impressions, we audit these summaries on the same 12,472 users and 5,486 videos in both logs. Standard means have absolute/centered mean absolute error (MAE) 0.1935/0.0491 and rank correlation 0.7833. User demeaning plus a random grand-mean anchor reduces absolute MAE by 80.0%, but centered MAE by only 21.0%, without reliably improving rank. A complete-support ledger allocates weighted squared error mainly to within-video residual (72.41%) and video mix (23.90%), with 3.65% from random support. In a frozen later test, early category calibration reaches MAE 0.0251 versus 0.0531 for scalar calibration; their direct difference is -0.0280 [-0.0296, -0.0172]. Decision evidence is cutoff-specific: the nominal top-10 regret change for row-weighted demeaning versus naive is -0.0062 [-0.0084, -0.0003], while top-5 and top-20 intervals include zero. The six-contrast family-wise top-10 interval [-0.0136, 0.0013] includes zero. An outcome-free disjoint randomized-reference split also leaves all six nominal contrasts covering zero. A known-truth stress test shows incomplete improvement under a mean-additive positive control and failure under item mix and weak overlap. All decompositions are descriptive and each result is conditional on its overlap cohort. KuaiRand intervals quantify user-cluster variation conditional on the realized catalog and calendar; we claim neither intrinsic category effects nor a universally valid correction.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-11-03T14:53:46Z</published>
+    <arxiv:comment>10 pages, 6 figures. Accepted at WSDM 2027 (Main Track)</arxiv:comment>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Yu Zhang</name>
+    </author>
+    <author>
+      <name>Zhihan Wang</name>
+    </author>
+    <author>
+      <name>Yuhang Lu</name>
+    </author>
+    <author>
+      <name>Shuai Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.26128v1</id>
+    <title>The Constraint Tax: Measuring Validity-Correctness Tradeoffs in Structured Outputs for Small Language Models</title>
+    <updated>2026-05-20T07:11:32Z</updated>
+    <link href="https://arxiv.org/abs/2605.26128v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.26128v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Production LLM systems increasingly require machine-readable outputs: JSON objects, typed traces, regex-constrained fields, and tool-call schemas. This paper targets on-device and low-cost small language model (SLM) deployments, where sub-3B models are attractive for privacy, latency, and commodity hardware but have limited capacity to satisfy schemas while solving tasks. The usual engineering assumption is that hard output constraints improve reliability without changing the underlying answer. We show that this assumption is unsafe for small models. We introduce \emph{constraint tax}, a measurement protocol for isolating the answer and executable-accuracy loss caused by structured-output constraints at fixed model, fixed task distribution, and fixed problem instances. Across 15,000 commodity-GPU generations with Qwen2.5-0.5B, Qwen2.5-1.5B, and SmolLM2-1.7B, hard answer-only schema decoding raises schema validity from 61.5\% to 100.0\%, but lowers answer accuracy from 19.7\% to 11.0\% and increases wrong-valid-schema outputs from 49.5\% to 88.9\%. The strongest industry analogue is a deterministic calendar tool-call task: Qwen2.5-1.5B achieves 91.5\% executable accuracy with prompt-only JSON but only 48.0\% under the same hard tool-call schema, while both modes are 100.0\% schema-valid. The error is semantic, not structural. We also show that the 3B boundary still pays a direct-schema tax and that delayed packaging supports a constructive design pattern: reason free, constrain late. The practical conclusion is direct: production systems should report schema validity, answer accuracy, executable accuracy, and wrong-valid-schema rate separately.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-20T07:11:32Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jaideep Ray</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.18000v1</id>
+    <title>A T-API-Compliant ReAct Agentic Loop for Optical Networks: Generic vs. Domain-Specific Tool Abstractions</title>
+    <updated>2026-06-16T14:47:16Z</updated>
+    <link href="https://arxiv.org/abs/2606.18000v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.18000v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optical networks need intent-driven, closed-loop agentic management, a key enabler for higher autonomy levels. We present the first T-API-compliant reasoning and act (ReAct) loop. We show that domain-specific composite tools achieve 90% oracle-validated correctness with threefold token savings compared to generic tools.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-16T14:47:16Z</published>
+    <arxiv:comment>4 pages, 2 figures, accepted for presentation at the 52nd European Conference on Optical Communications (ECOC), 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Seyed Morteza Ahmadian</name>
+    </author>
+    <author>
+      <name>Paolo Monti</name>
+    </author>
+    <author>
+      <name>Carlos Natalino</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.03824v4</id>
+    <title>Reference-less Measure of Faithfulness for Grammatical Error Correction</title>
+    <updated>2018-05-09T13:56:12Z</updated>
+    <link href="https://arxiv.org/abs/1804.03824v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.03824v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose USim, a semantic measure for Grammatical Error Correction (GEC) that measures the semantic faithfulness of the output to the source, thereby complementing existing reference-less measures (RLMs) for measuring the output's grammaticality. USim operates by comparing the semantic symbolic structure of the source and the correction, without relying on manually-curated references. Our experiments establish the validity of USim, by showing that (1) semantic annotation can be consistently applied to ungrammatical text; (2) valid corrections obtain a high USim similarity score to the source; and (3) invalid corrections obtain a lower score.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-11T06:10:48Z</published>
+    <arxiv:comment>Final version for NAACL 2018</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Leshem Choshen</name>
+    </author>
+    <author>
+      <name>Omri Abend</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.04822v1</id>
+    <title>Enabling Ethical AI: A case study in using Ontological Context for Justified Agentic AI Decisions</title>
+    <updated>2025-12-04T14:06:35Z</updated>
+    <link href="https://arxiv.org/abs/2512.04822v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.04822v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this preprint, we present A collaborative human-AI approach to building an inspectable semantic layer for Agentic AI. AI agents first propose candidate knowledge structures from diverse data sources; domain experts then validate, correct, and extend these structures, with their feedback used to improve subsequent models. Authors show how this process captures tacit institutional knowledge, improves response quality and efficiency, and mitigates institutional amnesia. We argue for a shift from post-hoc explanation to justifiable Agentic AI, where decisions are grounded in explicit, inspectable evidence and reasoning accessible to both experts and non-specialists.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-04T14:06:35Z</published>
+    <arxiv:comment>24 pages including references, with 6 images and 2 tables. Appendices, supporting data and additional reference provided from page 25 to 117</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Liam McGee</name>
+    </author>
+    <author>
+      <name>James Harvey</name>
+    </author>
+    <author>
+      <name>Lucy Cull</name>
+    </author>
+    <author>
+      <name>Andreas Vermeulen</name>
+    </author>
+    <author>
+      <name>Bart-Floris Visscher</name>
+    </author>
+    <author>
+      <name>Malvika Sharan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nlin/0302031v1</id>
+    <title>Renormalization Group Reduction of the Henon Map and Application to the Transverse Betatron Motion in Cyclic Accelerators</title>
+    <updated>2003-02-13T19:43:30Z</updated>
+    <link href="https://arxiv.org/abs/nlin/0302031v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nlin/0302031v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The renormalization group method is applied to the study of discrete dynamical systems. As a particular example, the Henon map is considered as applied to describe the transverse betatron oscillations in a cyclic accelerator or storage ring possessing a FODO-cell structure with a single thin sextupole. A powerful renormalization group method is developed that is valid correct to fourth order in the perturbation amplitude, and a technique for resolving the resonance structure of the Henon map is also presented. This calculation represents the first successful application of a renormalization group method to the study of discrete dynamical system in a unified manner capable of reducing the dynamics of the system both far from and close to resonances, thus preserving the symplectic symmetry of the original map.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-02-13T19:43:30Z</published>
+    <arxiv:comment>LaTeX, 18 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Stephan I. Tzenov</name>
+      <arxiv:affiliation>PPPL</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ronald C. Davidson</name>
+      <arxiv:affiliation>PPPL</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1088/1367-2630/5/1/367</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1367-2630/5/1/367" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08235v1</id>
+    <title>Dynamic Path Planning and Movement Control in Pedestrian Simulation</title>
+    <updated>2017-09-24T18:40:21Z</updated>
+    <link href="https://arxiv.org/abs/1709.08235v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.08235v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modeling and simulation of pedestrian behavior is used in applications such as planning large buildings, disaster management, or urban planning. Realistically simulating pedestrian behavior is challenging, due to the complexity of individual behavior as well as the complexity of interactions of pedestrians with each other and with the environment. This work-in-progress paper addresses the tactical (path planning) and the operational level (movement control) of pedestrian simulation from the perspective of multiagent-based modeling. We propose (1) an novel extension of the JPS routing algorithm for tactical planning, and (2) an architecture how path planning can be integrated with a social-force based movement control. The architecture is inspired by layered architectures for robot planning and control. We validate correctness and efficiency of our approach through simulation runs.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-24T18:40:21Z</published>
+    <arxiv:comment>This paper was accepted for the preproceedings of The 2nd International Workshop on Agent-based modelling of urban systems (ABMUS 2017), http://www.modelling-urban-systems.com/</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Fatema Tuj Johora</name>
+    </author>
+    <author>
+      <name>Philipp Kraus</name>
+    </author>
+    <author>
+      <name>Jörg P. Müller</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.16572v1</id>
+    <title>Correctness Witness Validation by Abstract Interpretation</title>
+    <updated>2023-10-25T11:58:12Z</updated>
+    <link href="https://arxiv.org/abs/2310.16572v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.16572v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Witnesses record automated program analysis results and make them exchangeable. To validate correctness witnesses through abstract interpretation, we introduce a novel abstract operation unassume. This operator incorporates witness invariants into the abstract program state. Given suitable invariants, the unassume operation can accelerate fixpoint convergence and yield more precise results. We demonstrate the feasibility of this approach by augmenting an abstract interpreter with unassume operators and evaluating the impact of incorporating witnesses on performance and precision. Using manually crafted witnesses, we can confirm verification results for multi-threaded programs with a reduction in effort ranging from 7% to 47% in CPU time. More intriguingly, we discover that using witnesses from model checkers can guide our analyzer to verify program properties that it could not verify on its own.</summary>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-25T11:58:12Z</published>
+    <arxiv:comment>29 pages, 4 figures, 2 tables, extended version of the paper which is to appear at VMCAI 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.PL"/>
+    <author>
+      <name>Simmo Saan</name>
+    </author>
+    <author>
+      <name>Michael Schwarz</name>
+    </author>
+    <author>
+      <name>Julian Erhard</name>
+    </author>
+    <author>
+      <name>Helmut Seidl</name>
+    </author>
+    <author>
+      <name>Sarah Tilscher</name>
+    </author>
+    <author>
+      <name>Vesal Vojdani</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-031-50524-9_4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-031-50524-9_4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.25189v1</id>
+    <title>AgentCyTE: Leveraging Agentic AI to Generate Cybersecurity Training &amp; Experimentation Scenarios</title>
+    <updated>2025-10-29T05:44:12Z</updated>
+    <link href="https://arxiv.org/abs/2510.25189v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.25189v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Designing realistic and adaptive networked threat scenarios remains a core challenge in cybersecurity research and training, still requiring substantial manual effort. While large language models (LLMs) show promise for automated synthesis, unconstrained generation often yields configurations that fail validation or execution. We present AgentCyTE, a framework integrating LLM-based reasoning with deterministic, schema-constrained network emulation to generate and refine executable threat environments. Through an agentic feedback loop, AgentCyTE observes scenario outcomes, validates correctness, and iteratively enhances realism and consistency. This hybrid approach preserves LLM flexibility while enforcing structural validity, enabling scalable, data-driven experimentation and reliable scenario generation for threat modeling and adaptive cybersecurity training. Our framework can be accessed at: https://github.com/AnantaaKotal/AgentCyTE</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-29T05:44:12Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ana M. Rodriguez</name>
+    </author>
+    <author>
+      <name>Jaime Acosta</name>
+    </author>
+    <author>
+      <name>Anantaa Kotal</name>
+    </author>
+    <author>
+      <name>Aritran Piplai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.10403v3</id>
+    <title>Polyhedral Complex Derivation from Piecewise Trilinear Networks</title>
+    <updated>2024-10-18T01:44:05Z</updated>
+    <link href="https://arxiv.org/abs/2402.10403v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.10403v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advancements in visualizing deep neural networks provide insights into their structures and mesh extraction from Continuous Piecewise Affine (CPWA) functions. Meanwhile, developments in neural surface representation learning incorporate non-linear positional encoding, addressing issues like spectral bias; however, this poses challenges in applying mesh extraction techniques based on CPWA functions. Focusing on trilinear interpolating methods as positional encoding, we present theoretical insights and an analytical mesh extraction, showing the transformation of hypersurfaces to flat planes within the trilinear region under the eikonal constraint. Moreover, we introduce a method for approximating intersecting points among three hypersurfaces contributing to broader applications. We empirically validate correctness and parsimony through chamfer distance and efficiency, and angular distance, while examining the correlation between the eikonal loss and the planarity of the hypersurfaces.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-16T02:01:24Z</published>
+    <arxiv:comment>Accepted at NeurIPS 2024. Updated with the camera-ready version</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jin-Hwa Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.00832v2</id>
+    <title>Robust Defense Strategy for Gas-Electric Systems Against Malicious Attacks</title>
+    <updated>2016-03-23T03:08:20Z</updated>
+    <link href="https://arxiv.org/abs/1603.00832v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.00832v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper proposes a methodology to identify and protect vulnerable components of connected gas and electric infrastructures from malicious attacks, and to guarantee a resilient operation by deploying valid corrective actions (while accounting for the interdependency of gas pipeline network and power transmission network). The proposed mathematical formulation reduces to a tri-level optimization problem, where the lower level is a multiperiod economic dispatch of the gas-electric system, the middle level distinguishes the most threatening attack on the coupled physical infrastructures, and the upper level provides optimal preventive decisions to reinforce the vulnerable components and increase the system resilience. By reformulating the lower level problem as a mixed integer linear programming (MILP), a nested column-and-constraint generation (C\&amp;CG) algorithm is developed to solve the min-max-min model. Case studies on two test systems demonstrate the effectiveness and efficiency of the proposed methodology.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-02T19:08:12Z</published>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Cheng Wang</name>
+    </author>
+    <author>
+      <name>Wei Wei</name>
+    </author>
+    <author>
+      <name>Jianhui Wang</name>
+    </author>
+    <author>
+      <name>Feng Liu</name>
+    </author>
+    <author>
+      <name>Feng Qiu</name>
+    </author>
+    <author>
+      <name>Carlos M. Correa-Posada</name>
+    </author>
+    <author>
+      <name>Shengwei Mei</name>
+    </author>
+    <arxiv:doi>10.1109/TPWRS.2016.2628877</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TPWRS.2016.2628877" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.06032v2</id>
+    <title>Modular Flows: Differential Molecular Generation</title>
+    <updated>2022-10-13T08:15:32Z</updated>
+    <link href="https://arxiv.org/abs/2210.06032v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.06032v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generating new molecules is fundamental to advancing critical applications such as drug discovery and material synthesis. Flows can generate molecules effectively by inverting the encoding process, however, existing flow models either require artifactual dequantization or specific node/edge orderings, lack desiderata such as permutation invariance, or induce discrepancy between the encoding and the decoding steps that necessitates post hoc validity correction. We circumvent these issues with novel continuous normalizing E(3)-equivariant flows, based on a system of node ODEs coupled as a graph PDE, that repeatedly reconcile locally toward globally aligned densities. Our models can be cast as message-passing temporal networks, and result in superlative performance on the tasks of density estimation and molecular generation. In particular, our generated samples achieve state-of-the-art on both the standard QM9 and ZINC250K benchmarks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-12T09:08:35Z</published>
+    <arxiv:comment>Accepted to NeurIPS 2022. More info at: https://yogeshverma1998.github.io/ModFlow/</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yogesh Verma</name>
+    </author>
+    <author>
+      <name>Samuel Kaski</name>
+    </author>
+    <author>
+      <name>Markus Heinonen</name>
+    </author>
+    <author>
+      <name>Vikas Garg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.5903v2</id>
+    <title>Assessing the Performance of Question-and-Answer Communities Using Survival Analysis</title>
+    <updated>2014-07-29T08:24:00Z</updated>
+    <link href="https://arxiv.org/abs/1407.5903v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.5903v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Question-&amp;-Answer (QA) websites have emerged as efficient platforms for knowledge sharing and problem solving. In particular, the Stack Exchange platform includes some of the most popular QA communities to date, such as Stack Overflow. Initial metrics used to assess the performance of these communities include summative statistics like the percentage of resolved questions or the average time to receive and validate correct answers. However, more advanced methods for longitudinal data analysis can provide further insights on the QA process, by enabling identification of key predictive factors and systematic comparison of performance across different QA communities. In this paper, we apply survival analysis to a selection of communities from the Stack Exchange platform. We illustrate the advantages of using the proposed methodology to characterize and evaluate the performance of QA communities, and then point to some implications for the design and management of QA platforms.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-22T15:29:49Z</published>
+    <arxiv:comment>10 pages, 3 figures, example code</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Felipe Ortega</name>
+    </author>
+    <author>
+      <name>Gregorio Convertino</name>
+    </author>
+    <author>
+      <name>Massimo Zancanaro</name>
+    </author>
+    <author>
+      <name>Tiziano Piccardi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.01779v2</id>
+    <title>Improved belief propagation is sufficient for real-time decoding of quantum memory</title>
+    <updated>2025-08-22T12:35:33Z</updated>
+    <link href="https://arxiv.org/abs/2506.01779v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.01779v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new heuristic decoder, Relay-BP, targeting real-time quantum circuit decoding for large-scale quantum computers. Relay-BP achieves high accuracy across circuit-noise decoding problems: significantly outperforming BP+OSD+CS-10 for bivariate-bicycle codes and comparable to min-weight-matching for surface codes. As a lightweight message-passing decoder, Relay-BP is inherently parallel, enabling rapid low-footprint decoding with FPGA or ASIC real-time implementations, similar to standard BP. A core aspect of our decoder is its enhancement of the standard BP algorithm by incorporating disordered memory strengths. This dampens oscillations and breaks symmetries that trap traditional BP algorithms. By dynamically adjusting memory strengths in a relay approach, Relay-BP can consecutively encounter multiple valid corrections to improve decoding accuracy. We observe that a problem-dependent distribution of memory strengths that includes negative values is indispensable for good performance.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-02T15:23:00Z</published>
+    <arxiv:comment>8 pages, 1 Table, 5 Figures, 1 Algorithm; v2: Added citations, fixed a typo in fig. 4</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Tristan Müller</name>
+    </author>
+    <author>
+      <name>Thomas Alexander</name>
+    </author>
+    <author>
+      <name>Michael E. Beverland</name>
+    </author>
+    <author>
+      <name>Markus Bühler</name>
+    </author>
+    <author>
+      <name>Blake R. Johnson</name>
+    </author>
+    <author>
+      <name>Thilo Maurer</name>
+    </author>
+    <author>
+      <name>Drew Vandeth</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.19628v1</id>
+    <title>Adding Compilation Metadata To Binaries To Make Disassembly Decidable</title>
+    <updated>2026-04-21T16:16:10Z</updated>
+    <link href="https://arxiv.org/abs/2604.19628v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.19628v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The binary executable format is the standard method for distributing and executing software. Yet, it is also as opaque a representation of software as can be. If the binary format were augmented with metadata that provides security-relevant information, such as which data is intended by the compiler to be executable instructions, or how memory regions are expected to be bounded, that would dramatically improve the safety and maintainability of software. In this paper, we propose a binary format that is a middle ground between a stripped black-box binary and open source. We provide a tool that generates metadata capturing the compiler's intent and inserts it into the binary. This metadata enables lifting to a correct and recompilable higher-level representation and makes analysis and instrumentation more reliable. Our evaluation shows that adding metadata does not affect runtime behavior or performance. Compared to DWARF, our metadata is roughly 17% of its size. We validate correctness by compiling a comprehensive set of real-world C and C++ binaries and demonstrating that they can be lifted, instrumented, and recompiled without altering their behavior.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-21T16:16:10Z</published>
+    <arxiv:comment>12 pages, 5 figures, 2 tables. Submitted to QRS 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Daniel Engel</name>
+    </author>
+    <author>
+      <name>Freek Verbeek</name>
+    </author>
+    <author>
+      <name>Pranav Kumar</name>
+    </author>
+    <author>
+      <name>Binoy Ravindran</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1202.5159v1</id>
+    <title>Semiparametrically efficient inference based on signed ranks in symmetric independent component models</title>
+    <updated>2012-02-23T12:23:08Z</updated>
+    <link href="https://arxiv.org/abs/1202.5159v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1202.5159v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider semiparametric location-scatter models for which the $p$-variate observation is obtained as $X=ΛZ+μ$, where $μ$ is a $p$-vector, $Λ$ is a full-rank $p\times p$ matrix and the (unobserved) random $p$-vector $Z$ has marginals that are centered and mutually independent but are otherwise unspecified. As in blind source separation and independent component analysis (ICA), the parameter of interest throughout the paper is $Λ$. On the basis of $n$ i.i.d. copies of $X$, we develop, under a symmetry assumption on $Z$, signed-rank one-sample testing and estimation procedures for $Λ$. We exploit the uniform local and asymptotic normality (ULAN) of the model to define signed-rank procedures that are semiparametrically efficient under correctly specified densities. Yet, as is usual in rank-based inference, the proposed procedures remain valid (correct asymptotic size under the null, for hypothesis testing, and root-$n$ consistency, for point estimation) under a very broad range of densities. We derive the asymptotic properties of the proposed procedures and investigate their finite-sample behavior through simulations.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-02-23T12:23:08Z</published>
+    <arxiv:comment>Published in at http://dx.doi.org/10.1214/11-AOS906 the Annals of Statistics (http://www.imstat.org/aos/) by the Institute of Mathematical Statistics (http://www.imstat.org)</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <arxiv:journal_ref>Annals of Statistics 2011, Vol. 39, No. 5, 2448-2476</arxiv:journal_ref>
+    <author>
+      <name>Pauliina Ilmonen</name>
+    </author>
+    <author>
+      <name>Davy Paindaveine</name>
+    </author>
+    <arxiv:doi>10.1214/11-AOS906</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1214/11-AOS906" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.06902v2</id>
+    <title>BabelCoder: Agentic Code Translation with Specification Alignment</title>
+    <updated>2026-09-24T19:51:25Z</updated>
+    <link href="https://arxiv.org/abs/2512.06902v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.06902v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As software systems evolve, developers increasingly work across multiple programming languages and often face the need to migrate code from one language to another. While automatic code translation offers a promising solution, it has long remained a challenging task. Recent advancements in Large Language Models (LLMs) have shown potential for this task, yet existing approaches remain limited in accuracy and fail to effectively leverage contextual and structural cues within the code. Prior work has explored translation and repair mechanisms, but lacks a structured, agentic framework where multiple specialized agents collaboratively improve translation quality. In this work, we introduce BabelCoder, an agentic framework that performs code translation by decomposing the task into specialized agents for translation, testing, and refinement, each responsible for a specific aspect such as generating code, validating correctness, or repairing errors. We evaluate BabelCoder on four benchmark datasets and compare it against four state-of-the-art baselines. BabelCoder outperforms existing methods by 0.5%-13.5% in 94% of cases, achieving an average accuracy of 94.16%.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-07T15:57:54Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Fazle Rabbi</name>
+    </author>
+    <author>
+      <name>Soumit Kanti Saha</name>
+    </author>
+    <author>
+      <name>Tri Minh Triet Pham</name>
+    </author>
+    <author>
+      <name>Song Wang</name>
+    </author>
+    <author>
+      <name>Jinqiu Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.21700v2</id>
+    <title>JELV: A Judge of Edit-Level Validity for Evaluation and Automated Reference Expansion in Grammatical Error Correction</title>
+    <updated>2025-12-07T05:49:32Z</updated>
+    <link href="https://arxiv.org/abs/2511.21700v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.21700v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing Grammatical Error Correction (GEC) systems suffer from limited reference diversity, leading to underestimated evaluation and restricted model generalization. To address this issue, we introduce the Judge of Edit-Level Validity (JELV), an automated framework to validate correction edits from grammaticality, faithfulness, and fluency. Using our proposed human-annotated Pair-wise Edit-level Validity Dataset (PEVData) as benchmark, JELV offers two implementations: a multi-turn LLM-as-Judges pipeline achieving 90% agreement with human annotators, and a distilled DeBERTa classifier with 85% precision on valid edits. We then apply JELV to reclassify misjudged false positives in evaluation and derive a comprehensive evaluation metric by integrating false positive decoupling and fluency scoring, resulting in state-of-the-art correlation with human judgments. We also apply JELV to filter LLM-generated correction candidates, expanding the BEA19's single-reference dataset containing 38,692 source sentences. Retraining top GEC systems on this expanded dataset yields measurable performance gains. JELV provides a scalable solution for enhancing reference diversity and strengthening both evaluation and model generalization.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-16T05:58:39Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yuhao Zhan</name>
+    </author>
+    <author>
+      <name>Yuqing Zhang</name>
+    </author>
+    <author>
+      <name>Jing Yuan</name>
+    </author>
+    <author>
+      <name>Qixiang Ma</name>
+    </author>
+    <author>
+      <name>Zhiqi Yang</name>
+    </author>
+    <author>
+      <name>Yu Gu</name>
+    </author>
+    <author>
+      <name>Zemin Liu</name>
+    </author>
+    <author>
+      <name>Fei Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.02079v2</id>
+    <title>Automated Functional Testing for Malleable Mobile Application Driven from User Intent</title>
+    <updated>2026-04-08T15:27:51Z</updated>
+    <link href="https://arxiv.org/abs/2604.02079v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.02079v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Software malleability allows applications to be easily changed, configured, and adapted even after deployment. While prior work has explored configurable systems, adaptive recommender systems, and malleable GUIs, these approaches are often tailored to specific software and lack generalizability. In this work, we envision per-user malleable mobile applications, where end-users can specify requirements that are automatically implemented via LLM-based code generation. However, realizing this vision requires overcoming the key challenge of designing automated test generation that can reliably verify both the presence and correctness of user-specified functionalities. We propose ALADDIN, a user-requirement-driven GUI test generation framework that incrementally navigates the UI, triggers desired functionalities, and constructs LLM-guided oracles to validate correctness. We build a benchmark spanning six popular mobile applications with both correct and faulty user-requested functionalities, demonstrating that ALADDIN effectively validates per-user features and is practical for real-world deployment. Our work highlights the feasibility of shifting mobile app development from a product-manager-driven to an end-user-driven paradigm.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-02T14:10:11Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Yuying Wang</name>
+    </author>
+    <author>
+      <name>Kaifeng Huang</name>
+    </author>
+    <author>
+      <name>Hao Deng</name>
+    </author>
+    <author>
+      <name>Zhiyuan Sun</name>
+    </author>
+    <author>
+      <name>Jinxuan Zhou</name>
+    </author>
+    <author>
+      <name>Shengjie Zhao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.06573v2</id>
+    <title>Scoring Edit Impact in Grammatical Error Correction via Embedded Association Graphs</title>
+    <updated>2026-05-05T06:51:59Z</updated>
+    <link href="https://arxiv.org/abs/2604.06573v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.06573v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A Grammatical Error Correction (GEC) system produces a sequence of edits to correct an erroneous sentence. The quality of these edits is typically evaluated against human annotations. However, a sentence may admit multiple valid corrections, and existing evaluation settings do not fully accommodate diverse application scenarios. Recent meta-evaluation approaches rely on human judgments across multiple references, but they are difficult to scale to large datasets. In this paper, we propose a new task, Scoring Edit Impact in GEC, which aims to automatically estimate the importance of edits produced by a GEC system. To address this task, we introduce a scoring framework based on an embedded association graph. The graph captures latent dependencies among edits and syntactically related edits, grouping them into coherent groups. We then perform perplexity-based scoring to estimate each edit's contribution to sentence fluency. Experiments across 4 GEC datasets, 4 languages, and 4 GEC systems demonstrate that our method consistently outperforms a range of baselines. Further analysis shows that the embedded association graph effectively captures cross-linguistic structural dependencies among edits.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-08T01:37:59Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Qiyuan Xiao</name>
+    </author>
+    <author>
+      <name>Xiaoman Wang</name>
+    </author>
+    <author>
+      <name>Yunshi Lan</name>
+    </author>
+  </entry>
+</feed>

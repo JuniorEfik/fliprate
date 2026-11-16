@@ -1,0 +1,568 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Bi4Tel18Izty17jGwNT3NIoxj/c</id>
+  <title>arXiv Query: search_query=&amp;id_list=2503.03750,2503.10728,2502.08177,2409.19839,2608.26511,2604.07749,2604.16009,2310.13548,2212.09251,2509.23936,2609.32867&amp;start=0&amp;max_results=20</title>
+  <updated>2026-11-15T10:01:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=20&amp;id_list=2503.03750,2503.10728,2502.08177,2409.19839,2608.26511,2604.07749,2604.16009,2310.13548,2212.09251,2509.23936,2609.32867" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>11</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.03750v3</id>
+    <title>The MASK Benchmark: Disentangling Honesty From Accuracy in AI Systems</title>
+    <updated>2026-01-05T22:55:16Z</updated>
+    <link href="https://arxiv.org/abs/2503.03750v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.03750v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As large language models (LLMs) become more capable and agentic, the requirement for trust in their outputs grows significantly, yet at the same time concerns have been mounting that models may learn to lie in pursuit of their goals. To address these concerns, a body of work has emerged around the notion of "honesty" in LLMs, along with interventions aimed at mitigating deceptive behaviors. However, some benchmarks claiming to measure honesty in fact simply measure accuracy--the correctness of a model's beliefs--in disguise. Moreover, no benchmarks currently exist for directly measuring whether language models lie. In this work, we introduce a large-scale human-collected dataset for directly measuring lying, allowing us to disentangle accuracy from honesty. Across a diverse set of LLMs, we find that while larger models obtain higher accuracy on our benchmark, they do not become more honest. Surprisingly, most frontier LLMs obtain high scores on truthfulness benchmarks yet exhibit a substantial propensity to lie under pressure, resulting in low honesty scores on our benchmark. We find that simple methods, such as representation engineering interventions, can improve honesty. These results underscore the growing need for robust evaluations and effective interventions to ensure LLMs remain trustworthy.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-05T18:59:23Z</published>
+    <arxiv:comment>Website: https://www.mask-benchmark.ai</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Richard Ren</name>
+    </author>
+    <author>
+      <name>Arunim Agarwal</name>
+    </author>
+    <author>
+      <name>Mantas Mazeika</name>
+    </author>
+    <author>
+      <name>Cristina Menghini</name>
+    </author>
+    <author>
+      <name>Robert Vacareanu</name>
+    </author>
+    <author>
+      <name>Brad Kenstler</name>
+    </author>
+    <author>
+      <name>Mick Yang</name>
+    </author>
+    <author>
+      <name>Isabelle Barrass</name>
+    </author>
+    <author>
+      <name>Alice Gatti</name>
+    </author>
+    <author>
+      <name>Xuwang Yin</name>
+    </author>
+    <author>
+      <name>Eduardo Trevino</name>
+    </author>
+    <author>
+      <name>Matias Geralnik</name>
+    </author>
+    <author>
+      <name>Adam Khoja</name>
+    </author>
+    <author>
+      <name>Dean Lee</name>
+    </author>
+    <author>
+      <name>Summer Yue</name>
+    </author>
+    <author>
+      <name>Dan Hendrycks</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.10728v1</id>
+    <title>DarkBench: Benchmarking Dark Patterns in Large Language Models</title>
+    <updated>2025-03-13T11:48:42Z</updated>
+    <link href="https://arxiv.org/abs/2503.10728v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.10728v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce DarkBench, a comprehensive benchmark for detecting dark design patterns--manipulative techniques that influence user behavior--in interactions with large language models (LLMs). Our benchmark comprises 660 prompts across six categories: brand bias, user retention, sycophancy, anthropomorphism, harmful generation, and sneaking. We evaluate models from five leading companies (OpenAI, Anthropic, Meta, Mistral, Google) and find that some LLMs are explicitly designed to favor their developers' products and exhibit untruthful communication, among other manipulative behaviors. Companies developing LLMs should recognize and mitigate the impact of dark design patterns to promote more ethical AI.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-13T11:48:42Z</published>
+    <arxiv:comment>Accepted as an Oral paper at ICLR 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Esben Kran</name>
+    </author>
+    <author>
+      <name>Hieu Minh "Jord" Nguyen</name>
+    </author>
+    <author>
+      <name>Akash Kundu</name>
+    </author>
+    <author>
+      <name>Sami Jawhar</name>
+    </author>
+    <author>
+      <name>Jinsuk Park</name>
+    </author>
+    <author>
+      <name>Mateusz Maria Jurewicz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.13548v4</id>
+    <title>Towards Understanding Sycophancy in Language Models</title>
+    <updated>2025-05-10T07:10:46Z</updated>
+    <link href="https://arxiv.org/abs/2310.13548v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.13548v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human feedback is commonly utilized to finetune AI assistants. But human feedback may also encourage model responses that match user beliefs over truthful ones, a behaviour known as sycophancy. We investigate the prevalence of sycophancy in models whose finetuning procedure made use of human feedback, and the potential role of human preference judgments in such behavior. We first demonstrate that five state-of-the-art AI assistants consistently exhibit sycophancy across four varied free-form text-generation tasks. To understand if human preferences drive this broadly observed behavior, we analyze existing human preference data. We find that when a response matches a user's views, it is more likely to be preferred. Moreover, both humans and preference models (PMs) prefer convincingly-written sycophantic responses over correct ones a non-negligible fraction of the time. Optimizing model outputs against PMs also sometimes sacrifices truthfulness in favor of sycophancy. Overall, our results indicate that sycophancy is a general behavior of state-of-the-art AI assistants, likely driven in part by human preference judgments favoring sycophantic responses.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-20T14:46:48Z</published>
+    <arxiv:comment>32 pages, 20 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mrinank Sharma</name>
+    </author>
+    <author>
+      <name>Meg Tong</name>
+    </author>
+    <author>
+      <name>Tomasz Korbak</name>
+    </author>
+    <author>
+      <name>David Duvenaud</name>
+    </author>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Samuel R. Bowman</name>
+    </author>
+    <author>
+      <name>Newton Cheng</name>
+    </author>
+    <author>
+      <name>Esin Durmus</name>
+    </author>
+    <author>
+      <name>Zac Hatfield-Dodds</name>
+    </author>
+    <author>
+      <name>Scott R. Johnston</name>
+    </author>
+    <author>
+      <name>Shauna Kravec</name>
+    </author>
+    <author>
+      <name>Timothy Maxwell</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+    <author>
+      <name>Kamal Ndousse</name>
+    </author>
+    <author>
+      <name>Oliver Rausch</name>
+    </author>
+    <author>
+      <name>Nicholas Schiefer</name>
+    </author>
+    <author>
+      <name>Da Yan</name>
+    </author>
+    <author>
+      <name>Miranda Zhang</name>
+    </author>
+    <author>
+      <name>Ethan Perez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.16009v2</id>
+    <title>MEDLEY-BENCH: Benchmarking Behavioural Metacognition and Belief Revision Under Social Pressure in Large Language Models</title>
+    <updated>2026-08-07T04:58:44Z</updated>
+    <link href="https://arxiv.org/abs/2604.16009v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.16009v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most large language model benchmarks evaluate final-answer quality but reveal little about how models revise beliefs under disagreement or conflicting evidence. We introduce MEDLEY-BENCH, an open benchmark comparing structured private self-review and analyst-conditioned social revision from a common solo baseline. We evaluated 35 models from 12 families on 130 instances using the Medley Metacognition Score (MMS) and four taxonomy-aligned, rubric-derived composites. MMS point estimates were not consistently ordered in the available within-family size or generation comparisons. Under the prespecified ipsative procedure, the Evaluation-mapped composite had the lowest relative rubric score in 30 of 35 models; Self-regulation was lowest in four models and Control in one. This rubric- and centering-dependent pattern may reflect model behavior, judge severity, data-pipeline effects, or their combination; it is not evidence of an absolute Evaluation deficit. In an exploratory adversarial analysis of 11 purposively selected models, sensitivity to manipulated consensus labels ranged from near zero to larger response shifts. A preliminary human rubric-application study of 24 paired vignettes found a mean composite difference of 0.727 (95% CI: 0.500-0.942). Across 24 cross-rated response items from 12 shared vignettes, quadratic-weighted inter-reviewer agreement was kappa = 0.389, and response-profile human-LLM convergence was rho = 0.637. This preprint reports MEDLEY-BENCH v1.0, the audited proof-of-concept release. A separately versioned v1.5 will rerun the full protocol with corrected social-summary rendering and stronger scoring reproducibility, experimental control, and uncertainty analysis. MEDLEY-BENCH complements accuracy-based evaluation by characterizing prompted belief revision under ambiguity and social disagreement.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-17T12:32:50Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Farhad Abtahi</name>
+    </author>
+    <author>
+      <name>Abdolamir Karbalaie</name>
+    </author>
+    <author>
+      <name>Eduardo Illueca-Fernandez</name>
+    </author>
+    <author>
+      <name>Fernando Seoane</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.08177v4</id>
+    <title>SycEval: Evaluating LLM Sycophancy</title>
+    <updated>2025-09-19T14:30:28Z</updated>
+    <link href="https://arxiv.org/abs/2502.08177v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.08177v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are increasingly applied in educational, clinical, and professional settings, but their tendency for sycophancy -- prioritizing user agreement over independent reasoning -- poses risks to reliability. This study introduces a framework to evaluate sycophantic behavior in ChatGPT-4o, Claude-Sonnet, and Gemini-1.5-Pro across AMPS (mathematics) and MedQuad (medical advice) datasets. Sycophantic behavior was observed in 58.19% of cases, with Gemini exhibiting the highest rate (62.47%) and ChatGPT the lowest (56.71%). Progressive sycophancy, leading to correct answers, occurred in 43.52% of cases, while regressive sycophancy, leading to incorrect answers, was observed in 14.66%. Preemptive rebuttals demonstrated significantly higher sycophancy rates than in-context rebuttals (61.75% vs. 56.52%, $Z=5.87$, $p&lt;0.001$), particularly in computational tasks, where regressive sycophancy increased significantly (preemptive: 8.13%, in-context: 3.54%, $p&lt;0.001$). Simple rebuttals maximized progressive sycophancy ($Z=6.59$, $p&lt;0.001$), while citation-based rebuttals exhibited the highest regressive rates ($Z=6.59$, $p&lt;0.001$). Sycophantic behavior showed high persistence (78.5%, 95% CI: [77.2%, 79.8%]) regardless of context or model. These findings emphasize the risks and opportunities of deploying LLMs in structured and dynamic domains, offering insights into prompt programming and model optimization for safer AI applications.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-12T07:32:42Z</published>
+    <arxiv:comment>AIES 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Aaron Fanous</name>
+      <arxiv:affiliation>Stanford University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jacob Goldberg</name>
+      <arxiv:affiliation>Stanford University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ank A. Agarwal</name>
+      <arxiv:affiliation>Stanford University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joanna Lin</name>
+      <arxiv:affiliation>Stanford University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Anson Zhou</name>
+      <arxiv:affiliation>Stanford University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Roxana Daneshjou</name>
+      <arxiv:affiliation>Stanford University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sanmi Koyejo</name>
+      <arxiv:affiliation>Stanford University</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.19839v5</id>
+    <title>ForecastBench: A Dynamic Benchmark of AI Forecasting Capabilities</title>
+    <updated>2025-02-28T12:35:34Z</updated>
+    <link href="https://arxiv.org/abs/2409.19839v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.19839v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Forecasts of future events are essential inputs into informed decision-making. Machine learning (ML) systems have the potential to deliver forecasts at scale, but there is no framework for evaluating the accuracy of ML systems on a standardized set of forecasting questions. To address this gap, we introduce ForecastBench: a dynamic benchmark that evaluates the accuracy of ML systems on an automatically generated and regularly updated set of 1,000 forecasting questions. To avoid any possibility of data leakage, ForecastBench is comprised solely of questions about future events that have no known answer at the time of submission. We quantify the capabilities of current ML systems by collecting forecasts from expert (human) forecasters, the general public, and LLMs on a random subset of questions from the benchmark ($N=200$). While LLMs have achieved super-human performance on many benchmarks, they perform less well here: expert forecasters outperform the top-performing LLM ($p$-value $&lt;0.001$). We display system and human scores in a public leaderboard at www.forecastbench.org.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-30T00:41:51Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ezra Karger</name>
+    </author>
+    <author>
+      <name>Houtan Bastani</name>
+    </author>
+    <author>
+      <name>Chen Yueh-Han</name>
+    </author>
+    <author>
+      <name>Zachary Jacobs</name>
+    </author>
+    <author>
+      <name>Danny Halawi</name>
+    </author>
+    <author>
+      <name>Fred Zhang</name>
+    </author>
+    <author>
+      <name>Philip E. Tetlock</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.09251v1</id>
+    <title>Discovering Language Model Behaviors with Model-Written Evaluations</title>
+    <updated>2022-12-19T05:13:52Z</updated>
+    <link href="https://arxiv.org/abs/2212.09251v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.09251v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As language models (LMs) scale, they develop many novel behaviors, good and bad, exacerbating the need to evaluate how they behave. Prior work creates evaluations with crowdwork (which is time-consuming and expensive) or existing data sources (which are not always available). Here, we automatically generate evaluations with LMs. We explore approaches with varying amounts of human effort, from instructing LMs to write yes/no questions to making complex Winogender schemas with multiple stages of LM-based generation and filtering. Crowdworkers rate the examples as highly relevant and agree with 90-100% of labels, sometimes more so than corresponding human-written datasets. We generate 154 datasets and discover new cases of inverse scaling where LMs get worse with size. Larger LMs repeat back a dialog user's preferred answer ("sycophancy") and express greater desire to pursue concerning goals like resource acquisition and goal preservation. We also find some of the first examples of inverse scaling in RL from Human Feedback (RLHF), where more RLHF makes LMs worse. For example, RLHF makes LMs express stronger political views (on gun rights and immigration) and a greater desire to avoid shut down. Overall, LM-written evaluations are high-quality and let us quickly discover many novel LM behaviors.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-19T05:13:52Z</published>
+    <arxiv:comment>for associated data visualizations, see https://www.evals.anthropic.com/model-written/ for full datasets, see https://github.com/anthropics/evals</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ethan Perez</name>
+    </author>
+    <author>
+      <name>Sam Ringer</name>
+    </author>
+    <author>
+      <name>Kamilė Lukošiūtė</name>
+    </author>
+    <author>
+      <name>Karina Nguyen</name>
+    </author>
+    <author>
+      <name>Edwin Chen</name>
+    </author>
+    <author>
+      <name>Scott Heiner</name>
+    </author>
+    <author>
+      <name>Craig Pettit</name>
+    </author>
+    <author>
+      <name>Catherine Olsson</name>
+    </author>
+    <author>
+      <name>Sandipan Kundu</name>
+    </author>
+    <author>
+      <name>Saurav Kadavath</name>
+    </author>
+    <author>
+      <name>Andy Jones</name>
+    </author>
+    <author>
+      <name>Anna Chen</name>
+    </author>
+    <author>
+      <name>Ben Mann</name>
+    </author>
+    <author>
+      <name>Brian Israel</name>
+    </author>
+    <author>
+      <name>Bryan Seethor</name>
+    </author>
+    <author>
+      <name>Cameron McKinnon</name>
+    </author>
+    <author>
+      <name>Christopher Olah</name>
+    </author>
+    <author>
+      <name>Da Yan</name>
+    </author>
+    <author>
+      <name>Daniela Amodei</name>
+    </author>
+    <author>
+      <name>Dario Amodei</name>
+    </author>
+    <author>
+      <name>Dawn Drain</name>
+    </author>
+    <author>
+      <name>Dustin Li</name>
+    </author>
+    <author>
+      <name>Eli Tran-Johnson</name>
+    </author>
+    <author>
+      <name>Guro Khundadze</name>
+    </author>
+    <author>
+      <name>Jackson Kernion</name>
+    </author>
+    <author>
+      <name>James Landis</name>
+    </author>
+    <author>
+      <name>Jamie Kerr</name>
+    </author>
+    <author>
+      <name>Jared Mueller</name>
+    </author>
+    <author>
+      <name>Jeeyoon Hyun</name>
+    </author>
+    <author>
+      <name>Joshua Landau</name>
+    </author>
+    <author>
+      <name>Kamal Ndousse</name>
+    </author>
+    <author>
+      <name>Landon Goldberg</name>
+    </author>
+    <author>
+      <name>Liane Lovitt</name>
+    </author>
+    <author>
+      <name>Martin Lucas</name>
+    </author>
+    <author>
+      <name>Michael Sellitto</name>
+    </author>
+    <author>
+      <name>Miranda Zhang</name>
+    </author>
+    <author>
+      <name>Neerav Kingsland</name>
+    </author>
+    <author>
+      <name>Nelson Elhage</name>
+    </author>
+    <author>
+      <name>Nicholas Joseph</name>
+    </author>
+    <author>
+      <name>Noemí Mercado</name>
+    </author>
+    <author>
+      <name>Nova DasSarma</name>
+    </author>
+    <author>
+      <name>Oliver Rausch</name>
+    </author>
+    <author>
+      <name>Robin Larson</name>
+    </author>
+    <author>
+      <name>Sam McCandlish</name>
+    </author>
+    <author>
+      <name>Scott Johnston</name>
+    </author>
+    <author>
+      <name>Shauna Kravec</name>
+    </author>
+    <author>
+      <name>Sheer El Showk</name>
+    </author>
+    <author>
+      <name>Tamera Lanham</name>
+    </author>
+    <author>
+      <name>Timothy Telleen-Lawton</name>
+    </author>
+    <author>
+      <name>Tom Brown</name>
+    </author>
+    <author>
+      <name>Tom Henighan</name>
+    </author>
+    <author>
+      <name>Tristan Hume</name>
+    </author>
+    <author>
+      <name>Yuntao Bai</name>
+    </author>
+    <author>
+      <name>Zac Hatfield-Dodds</name>
+    </author>
+    <author>
+      <name>Jack Clark</name>
+    </author>
+    <author>
+      <name>Samuel R. Bowman</name>
+    </author>
+    <author>
+      <name>Amanda Askell</name>
+    </author>
+    <author>
+      <name>Roger Grosse</name>
+    </author>
+    <author>
+      <name>Danny Hernandez</name>
+    </author>
+    <author>
+      <name>Deep Ganguli</name>
+    </author>
+    <author>
+      <name>Evan Hubinger</name>
+    </author>
+    <author>
+      <name>Nicholas Schiefer</name>
+    </author>
+    <author>
+      <name>Jared Kaplan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.07749v1</id>
+    <title>Beyond Social Pressure: Benchmarking Epistemic Attack in Large Language Models</title>
+    <updated>2026-04-09T03:14:30Z</updated>
+    <link href="https://arxiv.org/abs/2604.07749v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.07749v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) can shift their answers under pressure in ways that reflect accommodation rather than reasoning. Prior work on sycophancy has focused mainly on disagreement, flattery, and preference alignment, leaving a broader set of epistemic failures less explored. We introduce \textbf{PPT-Bench}, a diagnostic benchmark for evaluating \textit{epistemic attack}, where prompts challenge the legitimacy of knowledge, values, or identity rather than simply opposing a previous answer. PPT-Bench is organized around the Philosophical Pressure Taxonomy (PPT), which defines four types of philosophical pressure: Epistemic Destabilization, Value Nullification, Authority Inversion, and Identity Dissolution. Each item is tested at three layers: a baseline prompt (L0), a single-turn pressure condition (L1), and a multi-turn Socratic escalation (L2). This allows us to measure epistemic inconsistency between L0 and L1, and conversational capitulation in L2. Across five models, these pressure types produce statistically separable inconsistency patterns, suggesting that epistemic attack exposes weaknesses not captured by standard social-pressure benchmarks. Mitigation results are strongly type- and model-dependent: prompt-level anchoring and persona-stability prompts perform best in API settings, while Leading Query Contrastive Decoding is the most reliable intervention for open models.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-09T03:14:30Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Steven Au</name>
+    </author>
+    <author>
+      <name>Sujit Noronha</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.26511v1</id>
+    <title>Sycophancy Suppression Can Impair Rational Updating: Anti-Sycophancy Should Preserve the Ability to Update</title>
+    <updated>2026-08-27T01:20:03Z</updated>
+    <link href="https://arxiv.org/abs/2608.26511v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.26511v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models often exhibit sycophancy, revising their answers to align with users when users push back. Such answer flips, however, can arise from different causes. One possibility is that the model simply aligns with the user's feedback in order to satisfy them. Another is that the feedback genuinely contains useful evidence, prompting the model to update its answer in a rational way. We distinguish them as Unsupported-Yielding and Rational-Updating. Prior work focuses primarily on suppressing Unsupported-Yielding, while overlooking its effect on Rational-Updating. We address this gap with a two-turn evaluation framework that measures the two behaviors separately. Across representative training-time and inference-time interventions, we find that anti-sycophancy methods often encounter a trade-off in which reducing Unsupported-Yielding can sacrifice Rational-Updating, and vice versa, even when the two objectives are optimized jointly. Mechanistic analysis suggests that the two behaviors share an internal substrate: the MLP neurons and attention heads driving them overlap substantially, and their associated steering directions are positively aligned. We further conduct a preliminary orthogonalized steering exploration, which yields modest, backbone-dependent selectivity gains. Overall, our results suggest that anti-sycophancy should be treated not as a simple suppression problem, but as a selectivity problem, where effective interventions should preserve Rational-Updating while reducing Unsupported-Yielding.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-27T01:20:03Z</published>
+    <arxiv:comment>Accepted to EMNLP 2026 Findings. Code and data: https://github.com/dependentsign/sycophancy-rational-updating</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Huanhuan Ma</name>
+    </author>
+    <author>
+      <name>Henry Peng Zou</name>
+    </author>
+    <author>
+      <name>Chengze Li</name>
+    </author>
+    <author>
+      <name>Enze Ma</name>
+    </author>
+    <author>
+      <name>Yunyue Su</name>
+    </author>
+    <author>
+      <name>Philip S. Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.32867v1</id>
+    <title>Are You Sure You're Sure? Two Confounds in a Sycophancy Benchmark</title>
+    <updated>2026-09-26T18:52:35Z</updated>
+    <link href="https://arxiv.org/abs/2609.32867v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.32867v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sycophancy is a language model's tendency to cave when a user pushes back, abandoning a correct answer for the user's. Several benchmarks now measure it by scripting an objection and recording how often the model caves. Because that objection is a prompt template, whatever else the template varies is measured along with the property it claims to isolate. We audit SycEval, which reports that objections raised before a model answers (preemptive) cause more caving than those raised after (in-context), and attributes the gap to timing. Two features of its templates vary alongside the property each is meant to test. First, SycEval's objections escalate through four strength levels, and at the two weakest only the preemptive template names a target answer, so timing and naming vary together. We build the missing comparison and test it on multiple-choice questions and SycEval's own free-form pipeline. Naming a target answer raises the follow rate, the share of samples matching the user's assertion, by 14.1--49.5 percentage points (pp), and once both templates name one, the timing comparison reverses on three of the five model conditions we test: models cave \emph{less} under preemptive objections than in-context ones, opposite to SycEval. Second, the output-format instruction benchmarks append for automatic grading also varies with objection placement. Moving it from the pushback into the question flips its effect in opposite directions across models on the same items ($p=0.0059$). The same effect appears in SycEval's free-form pipeline: relocating its instruction lowers caving by 5.1pp on Llama-3.1-8B, while an equivalence test confirms no effect on Qwen3-4B. Both confounds live in the template rather than the models under test, so both are correctable: we close with three checks benchmark authors can apply before publishing.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-26T18:52:35Z</published>
+    <arxiv:comment>22 pages, 19 tables, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Atharv Gupta</name>
+    </author>
+    <author>
+      <name>Akshat Jindal</name>
+    </author>
+    <author>
+      <name>Lavanya Nigam</name>
+    </author>
+    <author>
+      <name>Aryan Sood</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.23936v3</id>
+    <title>Do Language Models Update their Forecasts with New Information?</title>
+    <updated>2026-09-04T21:24:16Z</updated>
+    <link href="https://arxiv.org/abs/2509.23936v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.23936v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prior work has largely treated future event prediction as a static task, failing to consider how forecasts should evolve as new evidence emerges. To address this gap, we introduce EvolveCast, a framework for evaluating whether large language models (LLMs) appropriately revise their predictions in response to new information. In particular, EvolveCast assesses whether models adjust their forecasts when presented with evidence released after their training cutoff, using human forecasters as a comparative reference for prediction shifts and confidence calibration. We find that while models often track the correct update direction, their quantitative shifts remain heavily under-responsive. Furthermore, both verbalized and logits-based confidence estimates are poorly calibrated compared to the human reference standard. These findings suggest current LLMs are fundamentally limited in their response to new evidence; models treat new information as mere retrieval context rather than as variables that dynamically shift posterior probabilities. EvolveCast highlights the critical need for robust mechanisms to incorporate external knowledge into dynamic belief updating.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-28T15:16:20Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhangdie Yuan</name>
+    </author>
+    <author>
+      <name>Zifeng Ding</name>
+    </author>
+    <author>
+      <name>Andreas Vlachos</name>
+    </author>
+  </entry>
+</feed>

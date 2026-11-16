@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ZiXiCsW844Xr+2tes1O5WJERlFA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2311.08596,2505.13995,2505.23840,2508.16846,2509.16533,2603.23848,2609.11428,2610.15634&amp;start=0&amp;max_results=10</title>
+  <updated>2026-11-15T11:29:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2311.08596,2505.13995,2505.23840,2508.16846,2509.16533,2603.23848,2609.11428,2610.15634" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2603.23848v1</id>
+    <title>BeliefShift: Benchmarking Temporal Belief Consistency and Opinion Drift in LLM Agents</title>
+    <updated>2026-03-25T02:09:35Z</updated>
+    <link href="https://arxiv.org/abs/2603.23848v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.23848v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLMs are increasingly used as long-running conversational agents, yet every major benchmark evaluating their memory treats user information as static facts to be stored and retrieved. That's the wrong model. People change their minds, and over extended interactions, phenomena like opinion drift, over-alignment, and confirmation bias start to matter a lot.
+  BeliefShift introduces a longitudinal benchmark designed specifically to evaluate belief dynamics in multi-session LLM interactions. It covers three tracks: Temporal Belief Consistency, Contradiction Detection, and Evidence-Driven Revision. The dataset includes 2,400 human-annotated multi-session interaction trajectories spanning health, politics, personal values, and product preferences.
+  We evaluate seven models including GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, LLaMA-3, and Mistral-Large under zero-shot and retrieval-augmented generation (RAG) settings. Results reveal a clear trade-off: models that personalize aggressively resist drift poorly, while factually grounded models miss legitimate belief updates.
+  We further introduce four novel evaluation metrics: Belief Revision Accuracy (BRA), Drift Coherence Score (DCS), Contradiction Resolution Rate (CRR), and Evidence Sensitivity Index (ESI).</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-25T02:09:35Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Praveen Kumar Myakala</name>
+    </author>
+    <author>
+      <name>Manan Agrawal</name>
+    </author>
+    <author>
+      <name>Rahul Manche</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.08596v2</id>
+    <title>Are You Sure? Challenging LLMs Leads to Performance Drops in The FlipFlop Experiment</title>
+    <updated>2024-02-21T18:15:47Z</updated>
+    <link href="https://arxiv.org/abs/2311.08596v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.08596v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The interactive nature of Large Language Models (LLMs) theoretically allows models to refine and improve their answers, yet systematic analysis of the multi-turn behavior of LLMs remains limited. In this paper, we propose the FlipFlop experiment: in the first round of the conversation, an LLM completes a classification task. In a second round, the LLM is challenged with a follow-up phrase like "Are you sure?", offering an opportunity for the model to reflect on its initial answer, and decide whether to confirm or flip its answer. A systematic study of ten LLMs on seven classification tasks reveals that models flip their answers on average 46% of the time and that all models see a deterioration of accuracy between their first and final prediction, with an average drop of 17% (the FlipFlop effect). We conduct finetuning experiments on an open-source LLM and find that finetuning on synthetically created data can mitigate - reducing performance deterioration by 60% - but not resolve sycophantic behavior entirely. The FlipFlop experiment illustrates the universality of sycophantic behavior in LLMs and provides a robust framework to analyze model behavior and evaluate future models.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-14T23:40:22Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Philippe Laban</name>
+    </author>
+    <author>
+      <name>Lidiya Murakhovs'ka</name>
+    </author>
+    <author>
+      <name>Caiming Xiong</name>
+    </author>
+    <author>
+      <name>Chien-Sheng Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.23840v4</id>
+    <title>Measuring Sycophancy of Language Models in Multi-turn Dialogues</title>
+    <updated>2026-02-26T23:11:24Z</updated>
+    <link href="https://arxiv.org/abs/2505.23840v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.23840v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are expected to provide helpful and harmless responses, yet they often exhibit sycophancy--conforming to user beliefs regardless of factual accuracy or ethical soundness. Prior research on sycophancy has primarily focused on single-turn factual correctness, overlooking the dynamics of real-world interactions. In this work, we introduce SYCON Bench, a novel benchmark for evaluating sycophantic behavior in multi-turn, free-form conversational settings. Our benchmark measures how quickly a model conforms to the user (Turn of Flip) and how frequently it shifts its stance under sustained user pressure (Number of Flip). Applying SYCON Bench to 17 LLMs across three real-world scenarios, we find that sycophancy remains a prevalent failure mode. Our analysis shows that alignment tuning amplifies sycophantic behavior, whereas model scaling and reasoning optimization strengthen the model's ability to resist undesirable user views. Reasoning models generally outperform instruction-tuned models but often fail when they over-index on logical exposition instead of directly addressing the user's underlying beliefs. Finally, we evaluate four additional prompting strategies and demonstrate that adopting a third-person perspective reduces sycophancy by up to 63.8% in debate scenario. We release our code and data at https://github.com/JiseungHong/SYCON-Bench.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-28T14:05:46Z</published>
+    <arxiv:comment>Accepted to Findings of EMNLP 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>Findings of the Association for Computational Linguistics: EMNLP 2025, pages 2239-2259</arxiv:journal_ref>
+    <author>
+      <name>Jiseung Hong</name>
+    </author>
+    <author>
+      <name>Grace Byun</name>
+    </author>
+    <author>
+      <name>Seungone Kim</name>
+    </author>
+    <author>
+      <name>Kai Shu</name>
+    </author>
+    <author>
+      <name>Jinho D. Choi</name>
+    </author>
+    <arxiv:doi>10.18653/v1/2025.findings-emnlp.121</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.18653/v1/2025.findings-emnlp.121" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.15634v1</id>
+    <title>Big-Big-SycoBench: A Benchmark to Detect Sycophancy Through Model Responses to Valid vs. Invalid Arguments</title>
+    <updated>2026-10-11T14:08:47Z</updated>
+    <link href="https://arxiv.org/abs/2610.15634v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.15634v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sycophancy in large language models risks amplifying unsupported claims or beliefs across the knowledge ecosystem as these systems increasingly contribute to research synthesis, evaluation, and decision-making. A reliable model should revise its judgement when a user identifies a genuine flaw, but should resist pushback based on fallacies, emotion, or irrelevant appeals to authority. While sycophancy is usually measured on questions with a verifiable answer, the evaluative tasks in which it is most difficult to detect have no such ground truth. We introduce Big-Big-SycoBench, which measures sycophancy through argument discernment: the ability to revise an evaluation after valid criticism while resisting invalid pressure. The benchmark consists of 450 text artefacts with 5,400 arguments for raising or lowering their quality scores, each reviewed by one or more of twelve human annotators. An LLM scores each artefact twenty times to establish its baseline score and uncertainty. The model is then given a valid or invalid argument and asked to update its score. We only count a revision if it exceeds the model's own baseline variability. We use the resulting score delta to distinguish responsiveness to valid arguments from compliance with invalid ones. Across ten models, responsiveness is 88-95\% for seven, 76-77\% for Kimi K3 and GLM-5.3, and 32\% for Opus 5.5. Compliance ranges from 0.2\% for GPT-6 Astra to 95\% for GPT-4o. Big-Big-SycoBench is intended to guide the development of models whose judgements can be corrected by sound arguments, but not displaced by unsupported pressure.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-11T14:08:47Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Marthe Ballon</name>
+    </author>
+    <author>
+      <name>Arne Vanhoyweghen</name>
+    </author>
+    <author>
+      <name>Seorin Kim</name>
+    </author>
+    <author>
+      <name>Francesca Carlon</name>
+    </author>
+    <author>
+      <name>Lynn Delcon</name>
+    </author>
+    <author>
+      <name>Melika Mobini</name>
+    </author>
+    <author>
+      <name>Vincent Holst</name>
+    </author>
+    <author>
+      <name>Lukas Van de Voorde</name>
+    </author>
+    <author>
+      <name>Tibo Vanleke</name>
+    </author>
+    <author>
+      <name>Mathieu Louis</name>
+    </author>
+    <author>
+      <name>Bert Verbruggen</name>
+    </author>
+    <author>
+      <name>Brecht F. Verbeken</name>
+    </author>
+    <author>
+      <name>Andres Algaba</name>
+    </author>
+    <author>
+      <name>Vincent Ginis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.16533v1</id>
+    <title>Challenging the Evaluator: LLM Sycophancy Under User Rebuttal</title>
+    <updated>2025-09-20T04:44:01Z</updated>
+    <link href="https://arxiv.org/abs/2509.16533v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.16533v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) often exhibit sycophancy, distorting responses to align with user beliefs, notably by readily agreeing with user counterarguments. Paradoxically, LLMs are increasingly adopted as successful evaluative agents for tasks such as grading and adjudicating claims. This research investigates that tension: why do LLMs show sycophancy when challenged in subsequent conversational turns, yet perform well when evaluating conflicting arguments presented simultaneously? We empirically tested these contrasting scenarios by varying key interaction patterns. We find that state-of-the-art models: (1) are more likely to endorse a user's counterargument when framed as a follow-up from a user, rather than when both responses are presented simultaneously for evaluation; (2) show increased susceptibility to persuasion when the user's rebuttal includes detailed reasoning, even when the conclusion of the reasoning is incorrect; and (3) are more readily swayed by casually phrased feedback than by formal critiques, even when the casual input lacks justification. Our results highlight the risk of relying on LLMs for judgment tasks without accounting for conversational framing.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-20T04:44:01Z</published>
+    <arxiv:comment>Accepted to EMNLP 2025 Findings</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sungwon Kim</name>
+    </author>
+    <author>
+      <name>Daniel Khashabi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.16846v6</id>
+    <title>BASIL: Bayesian Assessment of Sycophancy in LLMs</title>
+    <updated>2026-05-04T16:33:58Z</updated>
+    <link href="https://arxiv.org/abs/2508.16846v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.16846v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sycophancy (overly agreeable or flattering behavior) poses a fundamental challenge for human-AI collaboration, particularly in high-stakes decision-making domains such as health, law, and education. A central difficulty in studying sycophancy in large language models (LLMs) is disentangling sycophantic belief shifts from rational changes in behavior driven by new evidence or user-provided information. Existing approaches either measure descriptive behavior changes or apply normative evaluations that rely on objective ground truth, limiting their applicability to subjective or uncertain tasks. We introduce a Bayesian probabilistic framework, grounded in behavioral economics and rational decision theory, that explicitly separates sycophancy from rational belief updating. Within this framework, we achieve three objectives: (i) a descriptive metric that measures sycophancy while controlling for rational responses to evidence; (ii) a normative metric that quantifies how sycophancy leads models astray from Bayesian-consistent belief updating; and (iii) the ability to apply both metrics in settings without ground-truth labels. Applying our framework across multiple LLMs and three uncertainty-driven tasks, we find robust evidence of sycophantic belief shifts and show that their impact on rationality depends on whether models systematically over- or under-update their beliefs. Finally, we demonstrate that a post-hoc calibration method and two fine-tuning strategies (SFT and DPO) substantially reduce Bayesian inconsistency, with particularly strong improvements under explicit sycophancy prompting.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-23T00:11:00Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Katherine Atwell</name>
+    </author>
+    <author>
+      <name>Pedram Heydari</name>
+    </author>
+    <author>
+      <name>Anthony Sicilia</name>
+    </author>
+    <author>
+      <name>Malihe Alikhani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.13995v2</id>
+    <title>ELEPHANT: Measuring and understanding social sycophancy in LLMs</title>
+    <updated>2025-09-29T21:29:38Z</updated>
+    <link href="https://arxiv.org/abs/2505.13995v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.13995v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLMs are known to exhibit sycophancy: agreeing with and flattering users, even at the cost of correctness. Prior work measures sycophancy only as direct agreement with users' explicitly stated beliefs that can be compared to a ground truth. This fails to capture broader forms of sycophancy such as affirming a user's self-image or other implicit beliefs. To address this gap, we introduce social sycophancy, characterizing sycophancy as excessive preservation of a user's face (their desired self-image), and present ELEPHANT, a benchmark for measuring social sycophancy in an LLM. Applying our benchmark to 11 models, we show that LLMs consistently exhibit high rates of social sycophancy: on average, they preserve user's face 45 percentage points more than humans in general advice queries and in queries describing clear user wrongdoing (from Reddit's r/AmITheAsshole). Furthermore, when prompted with perspectives from either side of a moral conflict, LLMs affirm both sides (depending on whichever side the user adopts) in 48% of cases--telling both the at-fault party and the wronged party that they are not wrong--rather than adhering to a consistent moral or value judgment. We further show that social sycophancy is rewarded in preference datasets, and that while existing mitigation strategies for sycophancy are limited in effectiveness, model-based steering shows promise for mitigating these behaviors. Our work provides theoretical grounding and an empirical benchmark for understanding and addressing sycophancy in the open-ended contexts that characterize the vast majority of LLM use cases.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-20T06:45:17Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Myra Cheng</name>
+    </author>
+    <author>
+      <name>Sunny Yu</name>
+    </author>
+    <author>
+      <name>Cinoo Lee</name>
+    </author>
+    <author>
+      <name>Pranav Khadpe</name>
+    </author>
+    <author>
+      <name>Lujain Ibrahim</name>
+    </author>
+    <author>
+      <name>Dan Jurafsky</name>
+    </author>
+    <arxiv:doi>10.1126/science.aec8352</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1126/science.aec8352" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.11428v1</id>
+    <title>Wavering Oracles: Selective Updating and Correlated Failures in LLMs and Their Implications for Scientific Workflows</title>
+    <updated>2026-09-10T12:00:56Z</updated>
+    <link href="https://arxiv.org/abs/2609.11428v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.11428v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scientific workflows increasingly use repeated queries, multiple models, and interacting agents. Reliability therefore depends on whether models preserve correct conclusions, accept valid corrections, and contribute errors that a selector can distinguish. Using SycoBench- 600 as a controlled measurement substrate, we evaluate these requirements through selective updating, defined by resistance to misleading suggestions and uptake of correct suggestions. The study covers ten models and 17,055 trajectories. Published models span 13.4 to 71.6 percentage points in selectivity. Under identical local evaluation, Qwen3-4B is selectively adaptive at 45.6 points, Gemma3-4B is destabilized at minus 14.1 points, and SmolLM3-3B follows both correct and wrong explicit suggestions, producing zero selectivity. Matched interventions identify model specific responses to doubt, authority, and explicit advice. Among seven published models, the best reaches 95.3 percent accuracy, plurality reaches 88.6 percent, and the oracle ceiling is 99.8 percent. Mean error correlation of 0.285 reduces seven models to an effective independent count of 2.58. A leave-one-stem-family-out reliability selector reaches 96.2 percent, recovering 67.7 percent of the plurality-to-oracle gap. These results establish selective updating, error diversity, and calibrated adjudication as jointly measurable design targets for multi-model scientific workflows.</summary>
+    <category term="cs.DL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-10T12:00:56Z</published>
+    <arxiv:primary_category term="cs.DL"/>
+    <author>
+      <name>Xiaoshn Nee</name>
+    </author>
+    <author>
+      <name>Haobo Zhong</name>
+    </author>
+    <author>
+      <name>Xiaomin Ni</name>
+    </author>
+  </entry>
+</feed>

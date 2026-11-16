@@ -1,0 +1,728 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CxChLv0b8+RLyLbG5n+7TsHBhE0</id>
+  <title>arXiv Query: search_query=all:"selective updating" AND all:"language model"&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-11-15T11:46:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22selective+updating%22+AND+all:%22language+model%22&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>48</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2501.18094v2</id>
+    <title>AlphaAdam:Asynchronous Masked Optimization with Dynamic Alpha for Selective Updates</title>
+    <updated>2025-02-05T13:23:18Z</updated>
+    <link href="https://arxiv.org/abs/2501.18094v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.18094v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the training of large language models (LLMs), updating parameters more efficiently and stably has always been an important challenge. To achieve efficient parameter updates, existing methods usually achieve performance comparable to full parameter updates through methods such as low-dimensional decomposition or layer-wise selective updates. In this work, we propose AlphaAdam, an optimization framework for LLM from the perspective of intra-layer parameter updates. By decoupling parameter updates and dynamically adjusting their strength, AlphaAdam accelerates convergence and improves training stability. We construct parameter masks based on the consistency of historical momentum and gradient direction and combine them with an adaptive mask strength strategy to ensure efficient optimization and theoretical convergence guarantees, which is also applicable to most momentum-based optimizers. Extensive experiments show that AlphaAdam outperforms state-of-the-art methods such as AdamW in terms of convergence speed and computational efficiency across tasks, including GPT-2 pre-trained and fine-tuned RoBERTa and Llama-7B. Our AlphaAdam implements an optimizer enhancement framework for LLMs through intra-layer asynchronous masked adaptive updates. Our code is available in this https://github.com/MaeChd/AlphaAdam.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-30T02:10:23Z</published>
+    <arxiv:comment>Theorem 3.5 has issues of insufficient rigor. The content "Let $E[g_i^2] = σ_i^2$ ... $E[g_im_{t-1,i}] = ρ_i σ_i^2$ be the correlation between gradients and historical momentum ...." is a non-standard assumption and may mislead readers. In the spirit of rigor and responsibility, we temporarily withdraw this version of the content</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Da Chang</name>
+    </author>
+    <author>
+      <name>Yu Li</name>
+    </author>
+    <author>
+      <name>Ganzhao Yuan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.10928v1</id>
+    <title>Learn from Downstream and Be Yourself in Multimodal Large Language Model Fine-Tuning</title>
+    <updated>2024-11-17T01:16:37Z</updated>
+    <link href="https://arxiv.org/abs/2411.10928v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.10928v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal Large Language Model (MLLM) have demonstrated strong generalization capabilities across diverse distributions and tasks, largely due to extensive pre-training datasets. Fine-tuning MLLM has become a common practice to improve performance on specific downstream tasks. However, during fine-tuning, MLLM often faces the risk of forgetting knowledge acquired during pre-training, which can result in a decline in generalization abilities. To balance the trade-off between generalization and specialization, we propose measuring the parameter importance for both pre-trained and fine-tuning distributions, based on frozen pre-trained weight magnitude and accumulated fine-tuning gradient values. We further apply an importance-aware weight allocation strategy, selectively updating relatively important parameters for downstream tasks. We conduct empirical evaluations on both image captioning and visual question-answering tasks using various MLLM architectures. The comprehensive experimental analysis demonstrates the effectiveness of the proposed solution, highlighting the efficiency of the crucial modules in enhancing downstream specialization performance while mitigating generalization degradation in MLLM Fine-Tuning.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-17T01:16:37Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Wenke Huang</name>
+    </author>
+    <author>
+      <name>Jian Liang</name>
+    </author>
+    <author>
+      <name>Zekun Shi</name>
+    </author>
+    <author>
+      <name>Didi Zhu</name>
+    </author>
+    <author>
+      <name>Guancheng Wan</name>
+    </author>
+    <author>
+      <name>He Li</name>
+    </author>
+    <author>
+      <name>Bo Du</name>
+    </author>
+    <author>
+      <name>Dacheng Tao</name>
+    </author>
+    <author>
+      <name>Mang Ye</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.15330v2</id>
+    <title>Enhancing Large Language Model Performance with Gradient-Based Parameter Selection</title>
+    <updated>2025-02-13T13:06:00Z</updated>
+    <link href="https://arxiv.org/abs/2406.15330v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.15330v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have revolutionized lots of fields of research. Although it is well-known that fine-tuning is essential for enhancing the capabilities of LLMs, existing research suggests that there is potential redundancy in the fine-tuning process and therefore proposes to update only a subset of parameters. However, these methods fail to leverage the task-specific information to identify important parameters during training. Based on the insight that gradients inherently contain information on task-specific data, we propose Gradient-Mask Tuning (GMT), a method that selectively updates parameters during training based on their gradient information. Specifically, we compute the absolute values of the gradients and apply masking to those with relatively smaller magnitudes. Our empirical results across various tasks demonstrate that GMT not only outperforms traditional fine-tuning methods but also elevates the upper limits of LLM performance. Further analysis indicates that GMT exhibits insensitivity to mask ratio and possesses computational efficiency comparable to vanilla SFT.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-21T17:42:52Z</published>
+    <arxiv:comment>Accepted by AAAI 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Haoling Li</name>
+    </author>
+    <author>
+      <name>Xin Zhang</name>
+    </author>
+    <author>
+      <name>Xiao Liu</name>
+    </author>
+    <author>
+      <name>Yeyun Gong</name>
+    </author>
+    <author>
+      <name>Yifan Wang</name>
+    </author>
+    <author>
+      <name>Qi Chen</name>
+    </author>
+    <author>
+      <name>Peng Cheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.21119v1</id>
+    <title>Progtuning: Progressive Fine-tuning Framework for Transformer-based Language Models</title>
+    <updated>2025-06-26T09:37:15Z</updated>
+    <link href="https://arxiv.org/abs/2506.21119v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.21119v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fine-tuning is a promising technique for leveraging Transformer-based language models in downstream tasks. As model sizes continue to grow, updating all model parameters becomes increasingly costly. Parameter-efficient fine-tuning methods effectively address this issue by selectively updating a small subset of parameters. However, fine-tuning and most existing parameter-efficient fine-tuning methods require updating the same number of parameters as the initial size, ignoring the unequal contribution across Transformer blocks and leading to extremely inefficient allocation of computing resources. In this paper, we propose Progtuning, the novel fine-tuning framework combined with progressive learning for Transformer-based language models. Specifically, Progtuning progressively reduces the number of updated transformer blocks based on the contribution. Remarkably, Progtuning optimizes resource allocation and reduces the number of updated parameters by approximately 25\%, while still maintaining competitive performance. And it also exhibits high adaptability with parameter-efficient fine-tuning methods, demonstrating excellent performance across various adaptation scenarios.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-26T09:37:15Z</published>
+    <arxiv:comment>Accepted by ICONIP 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xiaoshuang Ji</name>
+    </author>
+    <author>
+      <name>Zhendong Zhao</name>
+    </author>
+    <author>
+      <name>Xiaojun Chen</name>
+    </author>
+    <author>
+      <name>Xin Zhao</name>
+    </author>
+    <author>
+      <name>Zeyao Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.10777v3</id>
+    <title>RoseLoRA: Row and Column-wise Sparse Low-rank Adaptation of Pre-trained Language Model for Knowledge Editing and Fine-tuning</title>
+    <updated>2024-10-15T19:47:15Z</updated>
+    <link href="https://arxiv.org/abs/2406.10777v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.10777v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pre-trained language models, trained on large-scale corpora, demonstrate strong generalizability across various NLP tasks. Fine-tuning these models for specific tasks typically involves updating all parameters, which is resource-intensive. Parameter-efficient fine-tuning (PEFT) methods, such as the popular LoRA family, introduce low-rank matrices to learn only a few parameters efficiently. However, during inference, the product of these matrices updates all pre-trained parameters, complicating tasks like knowledge editing that require selective updates. We propose a novel PEFT method, which conducts \textbf{r}ow and c\textbf{o}lumn-wise spar\textbf{se} \textbf{lo}w-\textbf{r}ank \textbf{a}daptation (RoseLoRA), to address this challenge. RoseLoRA identifies and updates only the most important parameters for a specific task, maintaining efficiency while preserving other model knowledge. By adding a sparsity constraint on the product of low-rank matrices and converting it to row and column-wise sparsity, we ensure efficient and precise model updates. Our theoretical analysis guarantees the lower bound of the sparsity with respective to the matrix product. Extensive experiments on five benchmarks across twenty datasets demonstrate that RoseLoRA outperforms baselines in both general fine-tuning and knowledge editing tasks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-16T02:08:49Z</published>
+    <arxiv:comment>EMNLP 2024 main</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Haoyu Wang</name>
+    </author>
+    <author>
+      <name>Tianci Liu</name>
+    </author>
+    <author>
+      <name>Ruirui Li</name>
+    </author>
+    <author>
+      <name>Monica Cheng</name>
+    </author>
+    <author>
+      <name>Tuo Zhao</name>
+    </author>
+    <author>
+      <name>Jing Gao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.11203v1</id>
+    <title>TRELM: Towards Robust and Efficient Pre-training for Knowledge-Enhanced Language Models</title>
+    <updated>2024-03-17T13:04:35Z</updated>
+    <link href="https://arxiv.org/abs/2403.11203v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.11203v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>KEPLMs are pre-trained models that utilize external knowledge to enhance language understanding. Previous language models facilitated knowledge acquisition by incorporating knowledge-related pre-training tasks learned from relation triples in knowledge graphs. However, these models do not prioritize learning embeddings for entity-related tokens. Moreover, updating the entire set of parameters in KEPLMs is computationally demanding. This paper introduces TRELM, a Robust and Efficient Pre-training framework for Knowledge-Enhanced Language Models. We observe that entities in text corpora usually follow the long-tail distribution, where the representations of some entities are suboptimally optimized and hinder the pre-training process for KEPLMs. To tackle this, we employ a robust approach to inject knowledge triples and employ a knowledge-augmented memory bank to capture valuable information. Furthermore, updating a small subset of neurons in the feed-forward networks (FFNs) that store factual knowledge is both sufficient and efficient. Specifically, we utilize dynamic knowledge routing to identify knowledge paths in FFNs and selectively update parameters during pre-training. Experimental results show that TRELM reduces pre-training time by at least 50% and outperforms other KEPLMs in knowledge probing tasks and multiple knowledge-aware language understanding tasks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-17T13:04:35Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Junbing Yan</name>
+    </author>
+    <author>
+      <name>Chengyu Wang</name>
+    </author>
+    <author>
+      <name>Taolin Zhang</name>
+    </author>
+    <author>
+      <name>Xiaofeng He</name>
+    </author>
+    <author>
+      <name>Jun Huang</name>
+    </author>
+    <author>
+      <name>Longtao Huang</name>
+    </author>
+    <author>
+      <name>Hui Xue</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.04032v1</id>
+    <title>RoAST: Robustifying Language Models via Adversarial Perturbation with Selective Training</title>
+    <updated>2023-12-07T04:23:36Z</updated>
+    <link href="https://arxiv.org/abs/2312.04032v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.04032v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fine-tuning pre-trained language models (LMs) has become the de facto standard in many NLP tasks. Nevertheless, fine-tuned LMs are still prone to robustness issues, such as adversarial robustness and model calibration. Several perspectives of robustness for LMs have been studied independently, but lacking a unified consideration in multiple perspectives. In this paper, we propose Robustifying LMs via Adversarial perturbation with Selective Training (RoAST), a simple yet effective fine-tuning technique to enhance the multi-perspective robustness of LMs in a unified way. RoAST effectively incorporates two important sources for the model robustness, robustness on the perturbed inputs and generalizable knowledge in pre-trained LMs. To be specific, RoAST introduces adversarial perturbation during fine-tuning while the model parameters are selectively updated upon their relative importance to minimize unnecessary deviation. Under a unified evaluation of fine-tuned LMs by incorporating four representative perspectives of model robustness, we demonstrate the effectiveness of RoAST compared to state-of-the-art fine-tuning methods on six different types of LMs, which indicates its usefulness in practice.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-07T04:23:36Z</published>
+    <arxiv:comment>33 pages, accepted at EMNLP 2023 Findings</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jaehyung Kim</name>
+    </author>
+    <author>
+      <name>Yuning Mao</name>
+    </author>
+    <author>
+      <name>Rui Hou</name>
+    </author>
+    <author>
+      <name>Hanchao Yu</name>
+    </author>
+    <author>
+      <name>Davis Liang</name>
+    </author>
+    <author>
+      <name>Pascale Fung</name>
+    </author>
+    <author>
+      <name>Qifan Wang</name>
+    </author>
+    <author>
+      <name>Fuli Feng</name>
+    </author>
+    <author>
+      <name>Lifu Huang</name>
+    </author>
+    <author>
+      <name>Madian Khabsa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.16550v2</id>
+    <title>Unified Enhancement of the Generalization and Robustness of Language Models via Bi-Stage Optimization</title>
+    <updated>2026-06-27T14:28:09Z</updated>
+    <link href="https://arxiv.org/abs/2503.16550v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.16550v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neural network language models (LMs) are confronted with significant challenges in generalization and robustness. Currently, many studies focus on improving either generalization or robustness in isolation, without methods addressing both aspects simultaneously, which presents a significant challenge in developing LMs that are both robust and generalized. In this paper, we propose a bi-stage optimization framework to uniformly enhance both the generalization and robustness of LMs, termed UEGR. Specifically, during the forward propagation stage, we enrich the output probability distributions of adversarial samples by adaptive dropout to generate diverse sub models, and incorporate JS divergence and adversarial losses of these output distributions to reinforce output stability. During backward propagation stage, we compute parameter saliency scores and selectively update only the most critical parameters to minimize unnecessary deviations and consolidate the model's resilience. Theoretical analysis shows that our framework includes gradient regularization to limit the model's sensitivity to input perturbations and selective parameter updates to flatten the loss landscape, thus improving both generalization and robustness. The experimental results show that our method significantly improves the generalization and robustness of LMs compared to other existing methods across 13 publicly available language datasets, achieving state-of-the-art (SOTA) performance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-19T13:50:36Z</published>
+    <arxiv:comment>The manuscript contains issues in the theoretical derivations that require revision prior to resubmission</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yudao Sun</name>
+    </author>
+    <author>
+      <name>Juan Yin</name>
+    </author>
+    <author>
+      <name>Juan Zhao</name>
+    </author>
+    <author>
+      <name>Fan Zhang</name>
+    </author>
+    <author>
+      <name>Yongheng Liu</name>
+    </author>
+    <author>
+      <name>Hongji Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.14880v3</id>
+    <title>From Hype to Insight: Rethinking Large Language Model Integration in Visual Speech Recognition</title>
+    <updated>2026-01-18T16:11:05Z</updated>
+    <link href="https://arxiv.org/abs/2509.14880v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.14880v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Advances in self-supervised encoders have improved Visual Speech Recognition (VSR). Recent approaches integrating these encoders with LLM decoders improves transcription accuracy; however, it remains unclear whether these gains stem from visual understanding or stronger language modeling. In this work, we systematically evaluate LLM decoders by freezing or selectively updating the visual encoder, scaling decoder size, comparing adaptation strategies and architectures, and varying training data across LRS2, LRS3, and their combination. Evaluation on LRS2, LRS3, and WildVSR shows that scaling and adaptation yield limited improvements, while combining datasets enhances generalization. Semantic analysis reveals that gains arise primarily from lexical rather than semantic processing. Our Llama-2-13B model trained on the combined set achieves 24.7% WER on LRS3 and 47.0% on WildVSR, establishing SOTA among models trained without additional supervision. Our findings indicate LLM decoders refine contextual reasoning rather than visual features, emphasizing the need for stronger visual encoders to drive meaningful progress.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-18T11:51:20Z</published>
+    <arxiv:comment>Accepted for publication in ICASSP 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Rishabh Jain</name>
+    </author>
+    <author>
+      <name>Naomi Harte</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.11810v1</id>
+    <title>GRACE: A Dynamic Coreset Selection Framework for Large Language Model Optimization</title>
+    <updated>2026-04-09T14:08:01Z</updated>
+    <link href="https://arxiv.org/abs/2604.11810v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.11810v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have demonstrated remarkable capabilities in natural language understanding and generation. However, their immense number of parameters and complex transformer-based architectures result in significant resource demands and computational complexity during training, making it challenging to optimize them efficiently on large datasets. To reduce training costs while preserving performance, researchers have investigated coreset selection techniques, which aim to identify small, representative subsets of the entire training dataset to accelerate LLM training. However, existing coreset selection methods fail to adapt to the dynamic nature of LLM training and often struggle with scalability for models of this size. To address these limitations, we propose a graph-guided adaptive and dynamic coreset selection framework for LLMs, namely GRACE. GRACE dynamically constructs and updates coresets by combining representation diversity with gradient-based importance metrics, ensuring both informativeness and efficiency. To mitigate the computational cost of frequent updates, GRACE leverages a $k$-NN graph-based propagation mechanism and selectively updates scores and embeddings, adapting to evolving training dynamics. Extensive experiments on three benchmarks demonstrate that GRACE significantly improves training efficiency and downstream performance across diverse LLMs and tasks.</summary>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-09T14:08:01Z</published>
+    <arxiv:primary_category term="cs.DB"/>
+    <author>
+      <name>Tianhao Tang</name>
+    </author>
+    <author>
+      <name>Haoyang Li</name>
+    </author>
+    <author>
+      <name>Lei Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.09658v1</id>
+    <title>ROSE: Robust Selective Fine-tuning for Pre-trained Language Models</title>
+    <updated>2022-10-18T07:53:15Z</updated>
+    <link href="https://arxiv.org/abs/2210.09658v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.09658v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Even though the large-scale language models have achieved excellent performances, they suffer from various adversarial attacks. A large body of defense methods has been proposed. However, they are still limited due to redundant attack search spaces and the inability to defend against various types of attacks. In this work, we present a novel fine-tuning approach called \textbf{RO}bust \textbf{SE}letive fine-tuning (\textbf{ROSE}) to address this issue. ROSE conducts selective updates when adapting pre-trained models to downstream tasks, filtering out invaluable and unrobust updates of parameters. Specifically, we propose two strategies: the first-order and second-order ROSE for selecting target robust parameters. The experimental results show that ROSE achieves significant improvements in adversarial robustness on various downstream NLP tasks, and the ensemble method even surpasses both variants above. Furthermore, ROSE can be easily incorporated into existing fine-tuning methods to improve their adversarial robustness further. The empirical analysis confirms that ROSE eliminates unrobust spurious updates during fine-tuning, leading to solutions corresponding to flatter and wider optima than the conventional method. Code is available at \url{https://github.com/jiangllan/ROSE}.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-18T07:53:15Z</published>
+    <arxiv:comment>Accepted to EMNLP 2022. Code is available at https://github.com/jiangllan/ROSE</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Lan Jiang</name>
+    </author>
+    <author>
+      <name>Hao Zhou</name>
+    </author>
+    <author>
+      <name>Yankai Lin</name>
+    </author>
+    <author>
+      <name>Peng Li</name>
+    </author>
+    <author>
+      <name>Jie Zhou</name>
+    </author>
+    <author>
+      <name>Rui Jiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.18489v3</id>
+    <title>EntropyCache: Decoded Token Entropy Guided KV Caching for Diffusion Language Models</title>
+    <updated>2026-11-04T01:11:39Z</updated>
+    <link href="https://arxiv.org/abs/2603.18489v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.18489v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diffusion-based large language models (dLLMs) rely on bidirectional attention, which prevents lossless KV caching and requires a full forward pass at every denoising step. Existing approximate KV caching methods reduce this cost by selectively updating cached states, but their decision overhead scales with context length or model depth. We propose EntropyCache, a training-free KV caching method that uses the maximum entropy of newly decoded token distributions as a constant-cost signal for deciding when to recompute. Our design is grounded in two empirical observations: (1) decoded token entropy correlates with KV cache drift, providing a cheap proxy for cache staleness, and (2) feature volatility of decoded tokens persists for multiple steps after unmasking, motivating recomputation of the $k$ most recently decoded tokens. The skip-or-recompute decision requires only $O(V)$ computation per step, independent of context length and model scale. Experiments on LLaDA-8B-Instruct and Dream-7B-Instruct show that EntropyCache achieves $15.2\times$-$26.4\times$ speedup on standard benchmarks and $22.4\times$-$24.1\times$ on chain-of-thought benchmarks, with competitive accuracy and decision overhead accounting for only $0.5\%$ of inference time. Code is available at https://github.com/mscheong01/EntropyCache.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-19T04:46:34Z</published>
+    <arxiv:comment>NeurIPS 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Minsoo Cheong</name>
+    </author>
+    <author>
+      <name>Donghyun Son</name>
+    </author>
+    <author>
+      <name>Woosang Lim</name>
+    </author>
+    <author>
+      <name>Sungjoo Yoo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.00015v1</id>
+    <title>G-MemLLM: Gated Latent Memory Augmentation for Long-Context Reasoning in Large Language Models</title>
+    <updated>2026-01-12T03:30:29Z</updated>
+    <link href="https://arxiv.org/abs/2602.00015v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.00015v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have demonstrated remarkable capabilities in natural language understanding, yet they remain constrained by the finite capacity of their context windows and the inherent difficulty of maintaining long-term factual consistency during multi-hop reasoning. While existing methods utilize context compression or recurrent tokens, they often suffer from ``context rot'' or the dilution of information over long horizons. In this paper, we propose \textbf{G-MemLLM}, a memory-augmented architecture that integrates a frozen LLM backbone with a trainable \textbf{Latent Memory Bank}. Our key innovation is a GRU-style gated update logic that allows the model to selectively update, preserve, or overwrite latent memory slots, preventing the vanishing gradients of knowledge common in recurrent systems. We evaluate G-MemLLM across scales, from GPT-2 (124M) to Llama 3.1 (8B), on the HotpotQA and Zero-Shot Relation Extraction (ZsRE) benchmarks. Our results demonstrate that G-MemLLM significantly enhances multi-hop reasoning and relational precision, achieving a 13.3\% accuracy boost on ZsRE for Llama 3.1-8B, and it also yields improvements across model scales, boosting Answer F1 by 8.56 points for GPT-2 and increasing Supporting Fact F1 by 6.89 points for Llama 3.1-8B on HotpotQA.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-12T03:30:29Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xun Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.04098v2</id>
+    <title>Efficient Few-Shot Continual Learning in Vision-Language Models</title>
+    <updated>2025-02-07T13:35:01Z</updated>
+    <link href="https://arxiv.org/abs/2502.04098v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.04098v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language models (VLMs) excel in tasks such as visual question answering and image captioning. However, VLMs are often limited by their use of pretrained image encoders, like CLIP, leading to image understanding errors that hinder overall performance. On top of that, real-world applications often require the model to be continuously adapted as new and often limited data continuously arrive. To address this, we propose LoRSU (Low-Rank Adaptation with Structured Updates), a robust and computationally efficient method for selectively updating image encoders within VLMs. LoRSU introduces structured and localized parameter updates, effectively correcting performance on previously error-prone data while preserving the model's general robustness. Our approach leverages theoretical insights to identify and update only the most critical parameters, achieving significant resource efficiency. Specifically, we demonstrate that LoRSU reduces computational overhead by over 25x compared to full VLM updates, without sacrificing performance. Experimental results on VQA tasks in the few-shot continual learning setting, validate LoRSU's scalability, efficiency, and effectiveness, making it a compelling solution for image encoder adaptation in resource-constrained environments.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-06T14:20:55Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Aristeidis Panos</name>
+    </author>
+    <author>
+      <name>Rahaf Aljundi</name>
+    </author>
+    <author>
+      <name>Daniel Olmeda Reino</name>
+    </author>
+    <author>
+      <name>Richard E. Turner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.03232v1</id>
+    <title>LEAML: Label-Efficient Adaptation to Out-of-Distribution Visual Tasks for Multimodal Large Language Models</title>
+    <updated>2025-10-03T17:59:56Z</updated>
+    <link href="https://arxiv.org/abs/2510.03232v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.03232v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal Large Language Models (MLLMs) have achieved strong performance on general visual benchmarks but struggle with out-of-distribution (OOD) tasks in specialized domains such as medical imaging, where labeled data is limited and expensive. We introduce LEAML, a label-efficient adaptation framework that leverages both scarce labeled VQA samples and abundant unlabeled images. Our approach generates domain-relevant pseudo question-answer pairs for unlabeled data using a QA generator regularized by caption distillation. Importantly, we selectively update only those neurons most relevant to question-answering, enabling the QA Generator to efficiently acquire domain-specific knowledge during distillation. Experiments on gastrointestinal endoscopy and sports VQA demonstrate that LEAML consistently outperforms standard fine-tuning under minimal supervision, highlighting the effectiveness of our proposed LEAML framework.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-03T17:59:56Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ci-Siang Lin</name>
+    </author>
+    <author>
+      <name>Min-Hung Chen</name>
+    </author>
+    <author>
+      <name>Yu-Yang Sheng</name>
+    </author>
+    <author>
+      <name>Yu-Chiang Frank Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.04496v1</id>
+    <title>DIVE: Dynamic Iterative Visual Evidence Construction for Efficient Vision-Language Models</title>
+    <updated>2026-08-05T06:32:25Z</updated>
+    <link href="https://arxiv.org/abs/2608.04496v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.04496v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Visual inputs in vision-language models (VLMs) are often encoded into substantially longer token sequences than text, making visual tokens a major bottleneck for efficient inference. Abundant recent methods address this bottleneck by scoring token importance and pruning low-scoring tokens in a single pass. However, one-shot scoring is insufficient because a token's prompt-relevant usefulness depends on the evidence already retained. Motivated by this insight, we introduce DIVE (Dynamic Iterative Visual Evidence Construction), a training-free framework that recasts visual-token pruning as dynamic evidence construction. DIVE repeatedly selects the remaining token with the highest residual-conditioned score, updates the visual and prompt residuals to discount the evidence already explained, and re-evaluates the remaining tokens. This select-update-re-evaluate process builds a retained set of complementary, prompt-relevant evidence. Experiments across eight image-understanding benchmarks show that DIVE consistently preserves performance across token budgets. With an 88.9% reduction in visual tokens, DIVE retains 98.2% of the uncompressed model's average performance. Code is available at https://github.com/Zhong-Chenchen/DIVE.git.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-05T06:32:25Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Chen Zhong</name>
+    </author>
+    <author>
+      <name>Xiao An</name>
+    </author>
+    <author>
+      <name>Zijie Wang</name>
+    </author>
+    <author>
+      <name>Jiepan Li</name>
+    </author>
+    <author>
+      <name>Guangyi Yang</name>
+    </author>
+    <author>
+      <name>Wei He</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.09865v1</id>
+    <title>GAST: Gradient-aligned Sparse Tuning of Large Language Models with Data-layer Selection</title>
+    <updated>2026-03-10T16:28:48Z</updated>
+    <link href="https://arxiv.org/abs/2603.09865v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.09865v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Parameter-Efficient Fine-Tuning (PEFT) has become a key strategy for adapting large language models, with recent advances in sparse tuning reducing overhead by selectively updating key parameters or subsets of data. Existing approaches generally focus on two distinct paradigms: layer-selective methods aiming to fine-tune critical layers to minimize computational load, and data-selective methods aiming to select effective training subsets to boost training. However, current methods typically overlook the fact that different data points contribute varying degrees to distinct model layers, and they often discard potentially valuable information from data perceived as of low quality. To address these limitations, we propose Gradient-aligned Sparse Tuning (GAST), an innovative method that simultaneously performs selective fine-tuning at both data and layer dimensions as integral components of a unified optimization strategy. GAST specifically targets redundancy in information by employing a layer-sparse strategy that adaptively selects the most impactful data points for each layer, providing a more comprehensive and sophisticated solution than approaches restricted to a single dimension. Experiments demonstrate that GAST consistently outperforms baseline methods, establishing a promising direction for future research in PEFT strategies.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-10T16:28:48Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kai Yao</name>
+    </author>
+    <author>
+      <name>Zhenghan Song</name>
+    </author>
+    <author>
+      <name>Kaixin Wu</name>
+    </author>
+    <author>
+      <name>Mingjie Zhong</name>
+    </author>
+    <author>
+      <name>Danzhao Cheng</name>
+    </author>
+    <author>
+      <name>Zhaorui Tan</name>
+    </author>
+    <author>
+      <name>Yixin Ji</name>
+    </author>
+    <author>
+      <name>Penglei Gao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.11513v1</id>
+    <title>MaZO: Masked Zeroth-Order Optimization for Multi-Task Fine-Tuning of Large Language Models</title>
+    <updated>2025-02-17T07:28:52Z</updated>
+    <link href="https://arxiv.org/abs/2502.11513v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.11513v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models have demonstrated exceptional capabilities across diverse tasks, but their fine-tuning demands significant memory, posing challenges for resource-constrained environments. Zeroth-order (ZO) optimization provides a memory-efficient alternative by eliminating the need for backpropagation. However, ZO optimization suffers from high gradient variance, and prior research has largely focused on single-task learning, leaving its application to multi-task learning unexplored. Multi-task learning is crucial for leveraging shared knowledge across tasks to improve generalization, yet it introduces unique challenges under ZO settings, such as amplified gradient variance and collinearity. In this paper, we present MaZO, the first framework specifically designed for multi-task LLM fine-tuning under ZO optimization. MaZO tackles these challenges at the parameter level through two key innovations: a weight importance metric to identify critical parameters and a multi-task weight update mask to selectively update these parameters, reducing the dimensionality of the parameter space and mitigating task conflicts. Experiments demonstrate that MaZO achieves state-of-the-art performance, surpassing even multi-task learning methods designed for first-order optimization.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-17T07:28:52Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Zhen Zhang</name>
+    </author>
+    <author>
+      <name>Yifan Yang</name>
+    </author>
+    <author>
+      <name>Kai Zhen</name>
+    </author>
+    <author>
+      <name>Nathan Susanj</name>
+    </author>
+    <author>
+      <name>Athanasios Mouchtaris</name>
+    </author>
+    <author>
+      <name>Siegfried Kunzmann</name>
+    </author>
+    <author>
+      <name>Zheng Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2610.34959v1</id>
+    <title>GUIFlow: Temporal Redundancy-Aware Incremental Inference for GUI Agents</title>
+    <updated>2026-10-26T07:25:39Z</updated>
+    <link href="https://arxiv.org/abs/2610.34959v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2610.34959v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>GUI agents built on vision-language models interact with continuously evolving interfaces, yet conventional inference repeatedly recomputes representations of largely overlapping observations and histories. This mismatch makes multi-step interaction costly, while changes in context, interface content, and action arguments prevent straightforward cache reuse. We introduce GUIFlow, a framework for full-pipeline incremental inference in multi-image GUI interaction. Our central insight is that advancing a decision need not require rebuilding all supporting representations: each interaction step can instead selectively update computational states maintained across the trajectory. To support new decisions as the context evolves, GUIFlow adapts how past computation is reused: historical KV states are position-aligned and injected into the current context; change signals guide selective updates of current-observation states in the vision encoder and language model; and earlier action responses serve as speculative drafts verified by the target model. Together, these mechanisms enable cross-step reuse throughout visual encoding, prefill, and decoding without additional training, a separate draft model, or changes to the model-visible inputs and action interface. Experiments demonstrate up to 3.39x geometric-mean speedup across offline multi-image benchmarks and up to 3.49x in online, closed-loop interaction on OSWorld, while maintaining task performance broadly comparable to the dense baseline.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-10-26T07:25:39Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Ye Li</name>
+    </author>
+    <author>
+      <name>Haoran Ding</name>
+    </author>
+    <author>
+      <name>Huanan Liu</name>
+    </author>
+    <author>
+      <name>Yuan Meng</name>
+    </author>
+    <author>
+      <name>Yutian Shen</name>
+    </author>
+    <author>
+      <name>Yuansong Wang</name>
+    </author>
+    <author>
+      <name>Kangye Ji</name>
+    </author>
+    <author>
+      <name>Hanyun Cui</name>
+    </author>
+    <author>
+      <name>Hongbo Duan</name>
+    </author>
+    <author>
+      <name>Chen Tang</name>
+    </author>
+    <author>
+      <name>Jiawei Li</name>
+    </author>
+    <author>
+      <name>Shu-Tao Xia</name>
+    </author>
+    <author>
+      <name>Zhi Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.14323v1</id>
+    <title>Dynamic Latent Routing</title>
+    <updated>2026-05-14T03:35:46Z</updated>
+    <link href="https://arxiv.org/abs/2605.14323v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.14323v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the temporal concatenation of sub-policies in Markov Decision Processes (MDP) with time-varying reward functions. We introduce General Dijkstra Search (GDS), and prove that globally optimal goal-reaching policies can be recovered through temporal composition of intermediate optimal sub-policies. Motivated by the "search, select, update" principle underlying GDS, we propose Dynamic Latent Routing (DLR), a language-model post-training method that jointly learns discrete latent codes, routing policies, and model parameters through dynamic search in a single training stage. In low-data fine-tuning settings, DLR matches or outperforms supervised fine-tuning across four datasets and six models, achieving a mean gain of +6.6 percentage points, while prior discrete-latent baselines consistently underperform SFT. Mechanistic analyses and targeted code ablations show that DLR learns structured routing behaviors with distinct causal roles.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-14T03:35:46Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Fangyuan Yu</name>
+    </author>
+    <author>
+      <name>Xin Su</name>
+    </author>
+    <author>
+      <name>Amir Abdullah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.38027v1</id>
+    <title>Layer-Informed Fine-Tuning via Three-Stage Functional Segmentation of LLMs</title>
+    <updated>2026-09-28T14:06:53Z</updated>
+    <link href="https://arxiv.org/abs/2609.38027v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.38027v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, the performance of large language models (LLMs) on reasoning tasks has been remarkable, even surpassing human capabilities on various benchmarks. However, there remains a lack of clear understanding in the academic community regarding how the structure and internal parameters of LLMs progressively solve complex reasoning problems. In this study, we investigate the inference process of LLMs on cross-linguistic materials and propose the hypothesis that LLM layers exhibit a structured division of labor across conceptualization, reasoning, and textualization. Based on this hypothesis, we introduce a bottleneck identification mechanism using sensitivity analysis to pinpoint the most critical functional stage for a specific task. Leveraging this insight, we propose a novel approach, Layer-Informed Fine-Tuning (LIFT), which achieves efficient and effective fine-tuning by selectively updating only these functionally critical layers. We then conduct extensive experiments to show that the LIFT method not only accelerates the training process but also significantly improves model performance.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-28T14:06:53Z</published>
+    <arxiv:comment>47 pages, including references and appendices</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Junning Shao</name>
+    </author>
+    <author>
+      <name>Siwei Wang</name>
+    </author>
+    <author>
+      <name>Zhixuan Fang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.14760v2</id>
+    <title>Bi-Drop: Enhancing Fine-tuning Generalization via Synchronous sub-net Estimation and Optimization</title>
+    <updated>2023-10-22T11:46:33Z</updated>
+    <link href="https://arxiv.org/abs/2305.14760v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.14760v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pretrained language models have achieved remarkable success in natural language understanding. However, fine-tuning pretrained models on limited training data tends to overfit and thus diminish performance. This paper presents Bi-Drop, a fine-tuning strategy that selectively updates model parameters using gradients from various sub-nets dynamically generated by dropout. The sub-net estimation of Bi-Drop is performed in an in-batch manner, so it overcomes the problem of hysteresis in sub-net updating, which is possessed by previous methods that perform asynchronous sub-net estimation. Also, Bi-Drop needs only one mini-batch to estimate the sub-net so it achieves higher utility of training data. Experiments on the GLUE benchmark demonstrate that Bi-Drop consistently outperforms previous fine-tuning methods. Furthermore, empirical results also show that Bi-Drop exhibits excellent generalization ability and robustness for domain transfer, data imbalance, and low-resource scenarios.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-24T06:09:26Z</published>
+    <arxiv:comment>EMNLP 2023 Findings. Camera-ready version. Co-first authors with equal contributions</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shoujie Tong</name>
+    </author>
+    <author>
+      <name>Heming Xia</name>
+    </author>
+    <author>
+      <name>Damai Dai</name>
+    </author>
+    <author>
+      <name>Runxin Xu</name>
+    </author>
+    <author>
+      <name>Tianyu Liu</name>
+    </author>
+    <author>
+      <name>Binghuai Lin</name>
+    </author>
+    <author>
+      <name>Yunbo Cao</name>
+    </author>
+    <author>
+      <name>Zhifang Sui</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.08466v1</id>
+    <title>Enhancing Small LLM Alignment through Margin-Based Objective Modifications under Resource Constraints</title>
+    <updated>2025-08-11T20:53:37Z</updated>
+    <link href="https://arxiv.org/abs/2508.08466v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.08466v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Small large language models (LLMs) often face difficulties in aligning output to human preferences, particularly when operating under severe performance gaps. In this work, we propose two lightweight DPO-based variants -- Adaptive Margin-Sigmoid Loss and APO-hinge-zero -- to better address underperformance scenarios by introducing margin-based objectives and selective update mechanisms.
+  Our APO-hinge-zero method, which combines hinge-induced hard-example mining with the chosen-focused optimization of APO-zero, achieves strong results. In AlpacaEval, APO-hinge-zero improves the win rate by +2.0 points and the length-controlled win rate by +1.4 points compared to the APO-zero baseline. In MT-Bench, our methods maintain competitive performance in diverse categories, particularly excelling in STEM and Humanities tasks.
+  These results demonstrate that simple modifications to preference-based objectives can significantly enhance small LLM alignment under resource constraints, offering a practical path toward more efficient deployment.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-11T20:53:37Z</published>
+    <arxiv:comment>10 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Daren Yao</name>
+    </author>
+    <author>
+      <name>Jinsong Yuan</name>
+    </author>
+    <author>
+      <name>Ruike Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.17526v1</id>
+    <title>MGUP: A Momentum-Gradient Alignment Update Policy for Stochastic Optimization</title>
+    <updated>2026-06-16T05:10:29Z</updated>
+    <link href="https://arxiv.org/abs/2606.17526v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.17526v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Efficient optimization is essential for training large language models. Although intra-layer selective updates have been explored, a general mechanism that enables fine-grained control while ensuring convergence guarantees is still lacking. To bridge this gap, we propose \textbf{MGUP}, a novel mechanism for selective updates. \textbf{MGUP} augments standard momentum-based optimizers by applying larger step-sizes to a selected fixed proportion of parameters in each iteration, while applying smaller, non-zero step-sizes to the rest. As a nearly {plug-and-play} module, \textbf{MGUP} seamlessly integrates with optimizers such as AdamW, Lion, and Muon. This yields powerful variants such as \textbf{MGUP-AdamW}, \textbf{MGUP-Lion}, and \textbf{MGUP-Muon}. Under standard assumptions, we provide theoretical convergence guarantees for \textbf{MGUP-AdamW} (without weight decay) in stochastic optimization. Extensive experiments across diverse tasks, including MAE pretraining, LLM pretraining, and downstream fine-tuning, demonstrate that our \textbf{MGUP}-enhanced optimizers achieve superior or more stable performance compared to their original base optimizers. We offer a principled, versatile, and theoretically grounded strategy for efficient intra-layer selective updates, accelerating and stabilizing the training of large-scale models. The code is publicly available at https://github.com/MaeChd/MGUP.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-16T05:10:29Z</published>
+    <arxiv:comment>Published in NeurIPS 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Da Chang</name>
+    </author>
+    <author>
+      <name>Ganzhao Yuan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.32428v1</id>
+    <title>Authorization Closure Graph: Minimal Repair for LLM Agents with Evolving User Instructions</title>
+    <updated>2026-09-26T10:02:57Z</updated>
+    <link href="https://arxiv.org/abs/2609.32428v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.32428v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tool-using large language model (LLM) agents increasingly perform state-changing actions that require user authorization. Yet existing approaches do not provide a principled mechanism for selectively updating prior authorization when only part of an instruction changes. To this end, we propose an Authorization-Closure-Graph (ACG)-based framework that represents authorization and its dependencies as an evolving, versioned state. ACG selectively invalidates authority affected by a revision while preserving unaffected portions of the authorization state, and computes a minimal repair that identifies only the missing evidence or authority required for execution. This enables agents to adapt to revised instructions while avoiding stale authority and unnecessary authorization requests. We evaluate ACG across three advanced LLMs in two natural tasks, and ACG consistently improves action safety rate and task success rate. Code is available at https://github.com/weiliang822/ACG.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-26T10:02:57Z</published>
+    <arxiv:comment>22 pages, 8 figures, 6 tables. Preprint under review</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Qingzhuo Wang</name>
+    </author>
+    <author>
+      <name>CaiYi Wang</name>
+    </author>
+    <author>
+      <name>Jinglu Meng</name>
+    </author>
+    <author>
+      <name>Ruiyang Qin</name>
+    </author>
+    <author>
+      <name>Kunyu Peng</name>
+    </author>
+    <author>
+      <name>Zhihua Wei</name>
+    </author>
+    <author>
+      <name>Wen Shen</name>
+    </author>
+  </entry>
+</feed>

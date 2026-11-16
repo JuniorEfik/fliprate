@@ -1,0 +1,42 @@
+{
+  "status": "SYNTHETIC_PLANNING_SIMULATION_ONLY",
+  "seed": 20261115,
+  "reps_per_scenario": 20000,
+  "starting_families": 96,
+  "completeness_gate": 86,
+  "models": 3,
+  "alpha_familywise": 0.05,
+  "multiplicity": "Holm-Bonferroni across three model-specific tests",
+  "sesoi_raw": 0.05,
+  "model_test_correlation": 0.3,
+  "central_scenario": {
+    "missingness_scenario": "central",
+    "shared_item_failure": 0.01,
+    "per_cell_failure": 0.01,
+    "family_complete_probability": 0.9509900498999999,
+    "exact_probability_at_least_86": 0.9925801766442158,
+    "true_raw_interaction": 0.05,
+    "item_interaction_sd": 0.15,
+    "standardized_effect": 0.33333333333333337,
+    "reps": 20000,
+    "average_holm_power": 0.8590166666666667,
+    "average_unadjusted_power": 0.89,
+    "any_model_rejection": 0.96635,
+    "all_models_rejection": 0.72695,
+    "average_gate_pass_probability": 0.9929166666666667,
+    "average_n_complete": 91.28076666666666
+  },
+  "central_power_pass": true,
+  "central_completeness_pass": true,
+  "max_simulated_null_any_model_rejection": 0.04965,
+  "limitations": [
+    "Normal-test planning approximation, not finite-sample t/bootstrap execution.",
+    "Item-level SD and malformedness are assumptions because model-facing pilot data are unavailable.",
+    "Same effect and SD assumed across the three models within each scenario.",
+    "Missingness is represented by shared-item and independent per-cell components only."
+  ],
+  "outputs": [
+    "protocol/simulations/results/completeness_scenarios.csv",
+    "protocol/simulations/results/power_scenarios.csv"
+  ]
+}

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/H8I/0esTR2UeAHYx/pSwabmHddI</id>
+  <title>arXiv Query: search_query=all:"evidence" AND all:"social pressure" AND all:"multi-turn" AND all:"language model"&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-11-15T11:46:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22evidence%22+AND+(all:%22social+pressure%22+AND+(all:%22multi-turn%22+AND+all:%22language+model%22))&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.16529v4</id>
+    <title>SycoEval-EM: Sycophancy Evaluation of Large Language Models in Simulated Clinical Encounters for Emergency Care</title>
+    <updated>2026-07-07T19:30:47Z</updated>
+    <link href="https://arxiv.org/abs/2601.16529v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.16529v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) deployed in clinical decision support may acquiesce to patient requests for care that conflicts with evidence-based guidelines. We developed SycoEval-EM, a multi-agent simulation framework to evaluate LLM robustness to adversarial patient persuasion in emergency medicine. Across 19 contemporary LLMs and 1,425 simulated clinical encounters spanning three Choosing Wisely scenarios, acquiescence rates ranged from 0% to 100%, revealing a bimodal distribution. Seven models maintained near-perfect guideline adherence, while six acquiesced in the majority of encounters. Vulnerability varied substantially across clinical scenarios. Acquiescence was highest for CT imaging requests, intermediate for antibiotic prescriptions for sinusitis, and lowest for opioid prescriptions for acute back pain. Model scale, recency, and performance on static medical benchmarks did not consistently predict robustness. All five persuasion tactics produced similar acquiescence rates, with no statistically significant differences after correction for multiple comparisons, suggesting a generalized susceptibility rather than tactic-specific weaknesses. LLM-as-judge evaluation was validated against two independent physician raters across 95 matched conversations and demonstrated near-perfect agreement for the primary outcome of acquiescence (Cohens kappa = 0.957). These findings indicate that static medical benchmarks are insufficient to predict safety performance under sustained social pressure and support incorporating multi-turn adversarial testing into clinical AI evaluation. Notably, two models achieved perfect guideline adherence across all encounters, demonstrating that robustness to patient pressure is attainable without sacrificing effective clinical communication.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-23T08:01:39Z</published>
+    <arxiv:comment>19 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Dongshen Peng</name>
+    </author>
+    <author>
+      <name>Yi Wang</name>
+    </author>
+    <author>
+      <name>Austin Schoeffler</name>
+    </author>
+    <author>
+      <name>Sun-ha Hong</name>
+    </author>
+    <author>
+      <name>Brian Suffoletto</name>
+    </author>
+    <author>
+      <name>David Kim</name>
+    </author>
+    <author>
+      <name>Carl Preiksaitis</name>
+    </author>
+    <author>
+      <name>Christian Rose</name>
+    </author>
+  </entry>
+</feed>

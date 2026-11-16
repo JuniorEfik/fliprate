@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pufBfU08ml5lhbomY4kSqWBpnLM</id>
+  <title>arXiv Query: search_query=all:"belief revision" AND all:"authority" AND all:"language model"&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <updated>2026-11-15T11:46:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22belief+revision%22+AND+(all:%22authority%22+AND+all:%22language+model%22)&amp;start=0&amp;max_results=25&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>25</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2605.09421v3</id>
+    <title>MACAA: Belief-Revision Multi-Agent Reasoning for Code Authorship Verification</title>
+    <updated>2026-05-15T14:14:55Z</updated>
+    <link href="https://arxiv.org/abs/2605.09421v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.09421v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Code authorship attribution (CAA) supports software forensics, plagiarism detection, and intellectual property protection. However, existing supervised CAA approaches suffer from scarce training data and closed-world assumptions: they require sufficient labeled code from fixed candidate-author sets, making training difficult in low-data cases and predictions unreliable for open-world test pairs with unseen samples, or heterogeneous code pairs. Large language models remove task-specific training, but direct prompting depends on costly expert-designed prompts, can hallucinate over complex heterogeneous code pairs, and rarely yields auditable evidence traces. We propose MACAA, a belief-revision-based multi-agent framework for training-free code authorship verification. MACAA comprises a Coordinator and four Expert Agents analyzing layout, lexical, syntactic, and programming-pattern evidence. The Coordinator gathers expert signals for expansion, discounts unreliable evidence through contraction, and resolves conflicts through revision to preserve belief consistency, replacing direct LLM judgment with auditable hypothesis refinement. MACAA achieves 89.15\% F1 on same-language benchmarks and 80.00\% on mixed cross-language pairs, outperforming the baselines overall in both same-language and cross-language evaluations.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-10T08:47:05Z</published>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Jingwei Ye</name>
+    </author>
+    <author>
+      <name>Zhi Wang</name>
+    </author>
+    <author>
+      <name>Xin Li</name>
+    </author>
+    <author>
+      <name>Cong Gao</name>
+    </author>
+    <author>
+      <name>Chenbin Su</name>
+    </author>
+    <author>
+      <name>Jieshuai Yang</name>
+    </author>
+    <author>
+      <name>Jianfei Tang</name>
+    </author>
+    <author>
+      <name>Ge Chu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.04202v2</id>
+    <title>ClawArena: Benchmarking AI Agents in Evolving Information Environments</title>
+    <updated>2026-05-16T15:44:46Z</updated>
+    <link href="https://arxiv.org/abs/2604.04202v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.04202v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI agents deployed as persistent assistants must maintain correct beliefs as their information environment evolves. In practice, evidence is scattered across heterogeneous sources that often contradict one another, new information can invalidate earlier conclusions, and user preferences surface through corrections rather than explicit instructions. Existing benchmarks largely assume static, single-authority settings and do not evaluate whether agents can keep up with this complexity. We introduce ClawArena, a benchmark for evaluating AI agents in evolving information environments. Each scenario maintains a complete hidden ground truth while exposing the agent only to noisy, partial, and sometimes contradictory traces across multi-channel sessions, workspace files, and staged updates. Evaluation is organized around three coupled challenges: multi-source conflict reasoning, dynamic belief revision, and implicit personalization, whose interactions yield a 14-category question taxonomy. Two question formats, multi-choice (set-selection) and shell-based executable checks, test both reasoning and workspace grounding. ClawArena comprises 12 multi-turn scenarios spanning 337 evaluation rounds with 45 dynamic updates, evaluated across five agent frameworks and 18 language models from proprietary, community-accessible, and self-hosted sources. Experiments show that model capability accounts for a 29-point score range across models while framework design accounts for up to a 24-point range, that MetaClaw's skill overlay reliably improves score without degrading accuracy, and that belief revision difficulty is determined by update design strategy rather than update volume. Code is available at https://github.com/aiming-lab/ClawArena.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-05T17:55:23Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Haonian Ji</name>
+    </author>
+    <author>
+      <name>Kaiwen Xiong</name>
+    </author>
+    <author>
+      <name>Siwei Han</name>
+    </author>
+    <author>
+      <name>Peng Xia</name>
+    </author>
+    <author>
+      <name>Shi Qiu</name>
+    </author>
+    <author>
+      <name>Yiyang Zhou</name>
+    </author>
+    <author>
+      <name>Jiaqi Liu</name>
+    </author>
+    <author>
+      <name>Jinlong Li</name>
+    </author>
+    <author>
+      <name>Bingzhou Li</name>
+    </author>
+    <author>
+      <name>Zeyu Zheng</name>
+    </author>
+    <author>
+      <name>Cihang Xie</name>
+    </author>
+    <author>
+      <name>Huaxiu Yao</name>
+    </author>
+  </entry>
+</feed>

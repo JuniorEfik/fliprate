@@ -1,0 +1,593 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/oIQtNGEtM5GMJ29zik93658yqoU</id>
+  <title>arXiv Query: search_query=all:"ELEPHANT" AND all:"large language models"&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-11-15T10:10:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22ELEPHANT%22+AND+all:%22large+language+models%22&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>18</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2604.21496v2</id>
+    <title>How English Print Media Frames Human-Elephant Conflicts in India</title>
+    <updated>2026-05-13T14:14:37Z</updated>
+    <link href="https://arxiv.org/abs/2604.21496v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.21496v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Human-elephant conflict (HEC) is rising across India as habitat loss and expanding human settlements force elephants into closer contact with people. While the ecological drivers of conflict are well-studied, how the news media portrays them remains largely unexplored. This work presents the first large-scale computational analysis of media framing of HEC in India, examining 1,968 full-length news articles consisting of 28,986 sentences, from a major English-language outlet published between January 2022 and September 2025. Using a multi-model sentiment framework that combines long-context transformers, large language models, and a domain-specific Negative Elephant Portrayal Lexicon, we quantify sentiment, extract rationale sentences, and identify linguistic patterns that contribute to negative portrayals of elephants. Our findings reveal a dominance of fear-inducing and aggression-related language. Since the media framing can shape public attitudes toward wildlife and conservation policy, such narratives risk reinforcing public hostility and undermining coexistence efforts. By providing a transparent, scalable methodology and releasing all resources through an anonymized repository, this study highlights how Web-scale text analysis can support responsible wildlife reporting and promote socially beneficial media practices.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-23T09:56:06Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Bonala Sai Punith</name>
+    </author>
+    <author>
+      <name>Salveru Jayati</name>
+    </author>
+    <author>
+      <name>Garima Shakya</name>
+    </author>
+    <author>
+      <name>Shubham Kumar Nigam</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.19024v1</id>
+    <title>Elephant in the Room: Unveiling the Impact of Reward Model Quality in Alignment</title>
+    <updated>2024-09-26T04:28:35Z</updated>
+    <link href="https://arxiv.org/abs/2409.19024v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.19024v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The demand for regulating potentially risky behaviors of large language models (LLMs) has ignited research on alignment methods. Since LLM alignment heavily relies on reward models for optimization or evaluation, neglecting the quality of reward models may cause unreliable results or even misalignment. Despite the vital role reward models play in alignment, previous works have consistently overlooked their performance and used off-the-shelf reward models arbitrarily without verification, rendering the reward model ``\emph{an elephant in the room}''. To this end, this work first investigates the quality of the widely-used preference dataset, HH-RLHF, and curates a clean version, CHH-RLHF. Based on CHH-RLHF, we benchmark the accuracy of a broad range of reward models used in previous alignment works, unveiling the unreliability of using them both for optimization and evaluation. Furthermore, we systematically study the impact of reward model quality on alignment performance in three reward utilization paradigms. Extensive experiments reveal that better reward models perform as better human preference proxies. This work aims to awaken people to notice this huge elephant in alignment research. We call attention to the following issues: (1) The reward model needs to be rigorously evaluated, whether for alignment optimization or evaluation. (2) Considering the role of reward models, research efforts should not only concentrate on alignment algorithm, but also on developing more reliable human proxy.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-26T04:28:35Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yan Liu</name>
+    </author>
+    <author>
+      <name>Xiaoyuan Yi</name>
+    </author>
+    <author>
+      <name>Xiaokang Chen</name>
+    </author>
+    <author>
+      <name>Jing Yao</name>
+    </author>
+    <author>
+      <name>Jingwei Yi</name>
+    </author>
+    <author>
+      <name>Daoguang Zan</name>
+    </author>
+    <author>
+      <name>Zheng Liu</name>
+    </author>
+    <author>
+      <name>Xing Xie</name>
+    </author>
+    <author>
+      <name>Tsung-Yi Ho</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.22395v2</id>
+    <title>Negation: A Pink Elephant in the Large Language Models' Room?</title>
+    <updated>2025-06-03T08:17:50Z</updated>
+    <link href="https://arxiv.org/abs/2503.22395v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.22395v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Negations are key to determining sentence meaning, making them essential for logical reasoning. Despite their importance, negations pose a substantial challenge for large language models (LLMs) and remain underexplored.
+  We constructed and published two new textual entailment datasets NoFEVER-ML and NoSNLI-ML in four languages (English, Czech, German, and Ukrainian) with
+  examples differing in negation. It allows investigation of the root causes of the negation problem and its exemplification: how popular LLM model properties and language impact their inability to handle negation correctly.
+  Contrary to previous work, we show that increasing the model size may improve the models' ability to handle negations. Furthermore, we find that both the models' reasoning accuracy and robustness to negation are language-dependent and that the length and explicitness of the premise have an impact on robustness. There is better accuracy in projective language with fixed order, such as English, than in non-projective ones, such as German or Czech.
+  Our entailment datasets pave the way to further research for explanation and exemplification of the negation problem, minimization of LLM hallucinations, and improvement of LLM reasoning in multilingual settings.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-28T13:04:41Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tereza Vrabcová</name>
+    </author>
+    <author>
+      <name>Marek Kadlčík</name>
+    </author>
+    <author>
+      <name>Petr Sojka</name>
+    </author>
+    <author>
+      <name>Michal Štefánik</name>
+    </author>
+    <author>
+      <name>Michal Spiegel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.14863v1</id>
+    <title>A Nurse is Blue and Elephant is Rugby: Cross Domain Alignment in Large Language Models Reveal Human-like Patterns</title>
+    <updated>2024-05-23T17:59:26Z</updated>
+    <link href="https://arxiv.org/abs/2405.14863v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.14863v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cross-domain alignment refers to the task of mapping a concept from one domain to another. For example, ``If a \textit{doctor} were a \textit{color}, what color would it be?''. This seemingly peculiar task is designed to investigate how people represent concrete and abstract concepts through their mappings between categories and their reasoning processes over those mappings. In this paper, we adapt this task from cognitive science to evaluate the conceptualization and reasoning abilities of large language models (LLMs) through a behavioral study. We examine several LLMs by prompting them with a cross-domain mapping task and analyzing their responses at both the population and individual levels. Additionally, we assess the models' ability to reason about their predictions by analyzing and categorizing their explanations for these mappings. The results reveal several similarities between humans' and models' mappings and explanations, suggesting that models represent concepts similarly to humans. This similarity is evident not only in the model representation but also in their behavior. Furthermore, the models mostly provide valid explanations and deploy reasoning paths that are similar to those of humans.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-23T17:59:26Z</published>
+    <arxiv:comment>CogSci</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Asaf Yehudai</name>
+    </author>
+    <author>
+      <name>Taelin Karidi</name>
+    </author>
+    <author>
+      <name>Gabriel Stanovsky</name>
+    </author>
+    <author>
+      <name>Ariel Goldstein</name>
+    </author>
+    <author>
+      <name>Omri Abend</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.16148v1</id>
+    <title>Towards responsible AI for education: Hybrid human-AI to confront the Elephant in the room</title>
+    <updated>2025-04-22T13:20:43Z</updated>
+    <link href="https://arxiv.org/abs/2504.16148v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.16148v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite significant advancements in AI-driven educational systems and ongoing calls for responsible AI for education, several critical issues remain unresolved -- acting as the elephant in the room within AI in education, learning analytics, educational data mining, learning sciences, and educational psychology communities. This critical analysis identifies and examines nine persistent challenges that continue to undermine the fairness, transparency, and effectiveness of current AI methods and applications in education. These include: (1) the lack of clarity around what AI for education truly means -- often ignoring the distinct purposes, strengths, and limitations of different AI families -- and the trend of equating it with domain-agnostic, company-driven large language models; (2) the widespread neglect of essential learning processes such as motivation, emotion, and (meta)cognition in AI-driven learner modelling and their contextual nature; (3) limited integration of domain knowledge and lack of stakeholder involvement in AI design and development; (4) continued use of non-sequential machine learning models on temporal educational data; (5) misuse of non-sequential metrics to evaluate sequential models; (6) use of unreliable explainable AI methods to provide explanations for black-box models; (7) ignoring ethical guidelines in addressing data inconsistencies during model training; (8) use of mainstream AI methods for pattern discovery and learning analytics without systematic benchmarking; and (9) overemphasis on global prescriptions while overlooking localised, student-specific recommendations. Supported by theoretical and empirical research, we demonstrate how hybrid AI methods -- specifically neural-symbolic AI -- can address the elephant in the room and serve as the foundation for responsible, trustworthy AI systems in education.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-22T13:20:43Z</published>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Danial Hooshyar</name>
+    </author>
+    <author>
+      <name>Gustav Šír</name>
+    </author>
+    <author>
+      <name>Yeongwook Yang</name>
+    </author>
+    <author>
+      <name>Eve Kikas</name>
+    </author>
+    <author>
+      <name>Raija Hämäläinen</name>
+    </author>
+    <author>
+      <name>Tommi Kärkkäinen</name>
+    </author>
+    <author>
+      <name>Dragan Gašević</name>
+    </author>
+    <author>
+      <name>Roger Azevedo</name>
+    </author>
+    <arxiv:doi>10.1016/j.caeai.2025.100524</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.caeai.2025.100524" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.06209v3</id>
+    <title>Elephants Never Forget: Memorization and Learning of Tabular Data in Large Language Models</title>
+    <updated>2024-12-04T10:33:18Z</updated>
+    <link href="https://arxiv.org/abs/2404.06209v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.06209v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While many have shown how Large Language Models (LLMs) can be applied to a diverse set of tasks, the critical issues of data contamination and memorization are often glossed over. In this work, we address this concern for tabular data. Specifically, we introduce a variety of different techniques to assess whether a language model has seen a tabular dataset during training. This investigation reveals that LLMs have memorized many popular tabular datasets verbatim. We then compare the few-shot learning performance of LLMs on datasets that were seen during training to the performance on datasets released after training. We find that LLMs perform better on datasets seen during training, indicating that memorization leads to overfitting. At the same time, LLMs show non-trivial performance on novel datasets and are surprisingly robust to data transformations. We then investigate the in-context statistical learning abilities of LLMs. While LLMs are significantly better than random at solving statistical classification problems, the sample efficiency of few-shot learning lags behind traditional statistical learning algorithms, especially as the dimension of the problem increases. This suggests that much of the observed few-shot performance on novel real-world datasets is due to the LLM's world knowledge. Overall, our results highlight the importance of testing whether an LLM has seen an evaluation dataset during pre-training. We release the https://github.com/interpretml/LLM-Tabular-Memorization-Checker Python package to test LLMs for memorization of tabular datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-09T10:58:21Z</published>
+    <arxiv:comment>COLM camera ready, fix typo</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sebastian Bordt</name>
+    </author>
+    <author>
+      <name>Harsha Nori</name>
+    </author>
+    <author>
+      <name>Vanessa Rodrigues</name>
+    </author>
+    <author>
+      <name>Besmira Nushi</name>
+    </author>
+    <author>
+      <name>Rich Caruana</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.09180v1</id>
+    <title>OASIS: A Rubric-Based Multimodal Assessment Platform Using Large Language Models</title>
+    <updated>2026-08-26T21:40:05Z</updated>
+    <link href="https://arxiv.org/abs/2609.09180v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.09180v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>OASIS (Open Assessment and Scoring Infrastructure Stack) is a systems platform for rubric-based grading of video, audio, and text with large language models. Scoring one artifact with an LLM is straightforward; deploying assessment at scale requires encounter management, rubric versioning, modality-aware execution, provenance capture, and human review. OASIS pairs a standalone command-line interface with a canonical integrated Elephant + MAPLES stack for encounter management and multimodal grading orchestration. Both paths can target hosted APIs or self-hosted open-weight models through Ollama and OpenAI-compatible endpoints such as vLLM. SimRubrics rubric authoring and the Wayfinder conversational agent gateway are optional extensions that use the same authenticated interfaces as human operators. Given a rubric and recorded encounters, OASIS produces per-criterion scores, evidence, and rationales, preserving execution artifacts for audit. Distinctive features include rubric-as-program compilation, progressive execution plans, content-addressable grading identity, transcript-augmented multimodal grading, explicit review state, and a shared command surface for humans and autonomous agents. Though developed in medical education, the architecture is domain-agnostic, applying wherever structured performance can be evaluated from recorded or written artifacts. In production at UT Southwestern Medical Center since Fall 2023, the platform has processed more than 7,000 encounters. This publication includes the report and project information, not application source, binaries, installation materials, sample data, or a tagged software release.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-26T21:40:05Z</published>
+    <arxiv:comment>27 pages, 4 figures; technical report. Project page: https://jamiesonlabutsw.github.io/oasis/</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Ameer H. Shakur</name>
+    </author>
+    <author>
+      <name>Shinyoung Kang</name>
+    </author>
+    <author>
+      <name>David Hein</name>
+    </author>
+    <author>
+      <name>Michael J. Holcomb</name>
+    </author>
+    <author>
+      <name>Huong-Tra Ngo</name>
+    </author>
+    <author>
+      <name>Aarash Zakeri</name>
+    </author>
+    <author>
+      <name>Minhan Park</name>
+    </author>
+    <author>
+      <name>Licheng Yi</name>
+    </author>
+    <author>
+      <name>Dhanush Jain</name>
+    </author>
+    <author>
+      <name>Hunter Schuler</name>
+    </author>
+    <author>
+      <name>Andrew R. Jamieson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.12429v1</id>
+    <title>Man vs the machine: The Struggle for Effective Text Anonymisation in the Age of Large Language Models</title>
+    <updated>2023-03-22T09:59:11Z</updated>
+    <link href="https://arxiv.org/abs/2303.12429v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.12429v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The collection and use of personal data are becoming more common in today's data-driven culture. While there are many advantages to this, including better decision-making and service delivery, it also poses significant ethical issues around confidentiality and privacy. Text anonymisation tries to prune and/or mask identifiable information from a text while keeping the remaining content intact to alleviate privacy concerns. Text anonymisation is especially important in industries like healthcare, law, as well as research, where sensitive and personal information is collected, processed, and exchanged under high legal and ethical standards.
+  Although text anonymization is widely adopted in practice, it continues to face considerable challenges. The most significant challenge is striking a balance between removing information to protect individuals' privacy while maintaining the text's usability for future purposes. The question is whether these anonymisation methods sufficiently reduce the risk of re-identification, in which an individual can be identified based on the remaining information in the text.
+  In this work, we challenge the effectiveness of these methods and how we perceive identifiers. We assess the efficacy of these methods against the elephant in the room, the use of AI over big data. While most of the research is focused on identifying and removing personal information, there is limited discussion on whether the remaining information is sufficient to deanonymise individuals and, more precisely, who can do it. To this end, we conduct an experiment using GPT over anonymised texts of famous people to determine whether such trained networks can deanonymise them. The latter allows us to revise these methods and introduce a novel methodology that employs Large Language Models to improve the anonymity of texts.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-22T09:59:11Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Constantinos Patsakis</name>
+    </author>
+    <author>
+      <name>Nikolaos Lykousas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.11018v1</id>
+    <title>Whole-Body Semantic-to-Actuation Grounding of Elephant-Inspired Soft-Trunk Motion via Lightweight Flow Matching</title>
+    <updated>2026-07-13T02:33:53Z</updated>
+    <link href="https://arxiv.org/abs/2607.11018v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.11018v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For close-contact human-robot interaction (HRI), trunk-like continuum manipulators provide a physical channel for diverse whole-body expression, but grounding open-vocabulary responses into such robots is difficult: end-effector motion underspecifies body shape, whereas direct whole-body commands are high-dimensional and hard to keep feasible. We propose a whole-body semantic-to-actuation grounding framework for elephant-inspired soft-trunk HRI based on lightweight flow matching. The framework converts responses from a multimodal large language model into bounded, morphology-aligned intent-intensity tuples, parameterizes tendon-actuation trajectories with compact Catmull-Rom spline controls, and uses a rectified-flow generator to sample feasible whole-body trunk motions. Experiments show that the proposed framework improves held-out grounding correctness from 25.0% to 77.2% over a raw-response dense-regression baseline. Compared with a denoising-diffusion baseline, it improves correctness from 71.9% to 77.2% and reduces inference time from 7.86 ms to 4.87 ms while preserving motion diversity. A 100-participant physical HRI study further shows that adding the generated soft-trunk motion channel increases the positive overall-satisfaction rating from 46% to 82% over the audiovisual-only baseline.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-13T02:33:53Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Tingcong Liu</name>
+    </author>
+    <author>
+      <name>Tongshun Chen</name>
+    </author>
+    <author>
+      <name>Siyi Ma</name>
+    </author>
+    <author>
+      <name>Yuhao Wang</name>
+    </author>
+    <author>
+      <name>Aye Phyu Phyu Aung</name>
+    </author>
+    <author>
+      <name>Ibrahim Alsarraj</name>
+    </author>
+    <author>
+      <name>J. Senthilnath</name>
+    </author>
+    <author>
+      <name>Bo An</name>
+    </author>
+    <author>
+      <name>Ke Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2609.13841v1</id>
+    <title>Sweet Talkers: How Query Formulation Shapes Sycophancy in Romantic Relationship Advice</title>
+    <updated>2026-09-12T09:55:37Z</updated>
+    <link href="https://arxiv.org/abs/2609.13841v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.13841v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are increasingly used for emotional support and relationship advice, where a model's tendency to preserve a user's face can inadvertently reinforce harmful interpersonal behaviors. To systematically examine this risk, we developed the Romantic Relationship Advice-Seeking Prompts (RRASP) dataset of 2,400 prompts across five relationship themes and evaluated social sycophancy using the ELEPHANT framework on two consumer-facing models, GPT-5 Mini and Gemini 3 Flash. Contrary to our initial hypothesis, grammatical mood alone did not produce systematic differences in sycophantic behavior, suggesting that what a user implies matters more than how they phrase it. Instead, perspective-driven framing had a stronger influence, with gaps between original and flipped prompts widening in follow-up responses. Consistent increases in framing and moral sycophancy across turns indicate that models become more likely to accept a user's stated premises and affirm their ethical stance as a dialogue progresses. Notably, Gemini 3 Flash exhibited substantially smaller increases in moral sycophancy than GPT-5 Mini, suggesting it is more resistant to reinforcing ethically problematic positions across turns.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-12T09:55:37Z</published>
+    <arxiv:comment>Accepted to LUHME Workshop @ EMNLP 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Helena Choi</name>
+    </author>
+    <author>
+      <name>Edric Castel Hao</name>
+    </author>
+    <author>
+      <name>Karl Bautista</name>
+    </author>
+    <author>
+      <name>Francis Gabriel Magleo</name>
+    </author>
+    <author>
+      <name>Renzo Panti</name>
+    </author>
+    <author>
+      <name>Danielle Beatrice Olalia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.16674v4</id>
+    <title>Through the LLM Looking Glass: A Socratic Probing of Donkeys, Elephants, and Markets</title>
+    <updated>2026-01-12T12:41:04Z</updated>
+    <link href="https://arxiv.org/abs/2503.16674v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.16674v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are widely used for text generation, making it crucial to address potential bias. This study investigates ideological framing bias in LLM-generated articles, focusing on the subtle and subjective nature of such bias in journalistic contexts. We evaluate eight widely used LLMs on two datasets-POLIGEN and ECONOLEX-covering political and economic discourse where framing bias is most pronounced. Beyond text generation, LLMs are increasingly used as evaluators (LLM-as-a-judge), providing feedback that can shape human judgment or inform newer model versions. Inspired by the Socratic method, we further analyze LLMs' feedback on their own outputs to identify inconsistencies in their reasoning. Our results show that most LLMs can accurately annotate ideologically framed text, with GPT-4o achieving human-level accuracy and high agreement with human annotators. However, Socratic probing reveals that when confronted with binary comparisons, LLMs often exhibit preference toward one perspective or perceive certain viewpoints as less biased.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-20T19:40:40Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Molly Kennedy</name>
+    </author>
+    <author>
+      <name>Ayyoob Imani</name>
+    </author>
+    <author>
+      <name>Timo Spinde</name>
+    </author>
+    <author>
+      <name>Akiko Aizawa</name>
+    </author>
+    <author>
+      <name>Hinrich Schütze</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.04435v1</id>
+    <title>Accommodation and Epistemic Vigilance: A Pragmatic Account of Why LLMs Fail to Challenge Harmful Beliefs</title>
+    <updated>2026-01-07T22:47:24Z</updated>
+    <link href="https://arxiv.org/abs/2601.04435v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.04435v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) frequently fail to challenge users' harmful beliefs in domains ranging from medical advice to social reasoning. We argue that these failures can be understood and addressed pragmatically as consequences of LLMs defaulting to accommodating users' assumptions and exhibiting insufficient epistemic vigilance. We show that social and linguistic factors known to influence accommodation in humans (at-issueness, linguistic encoding, and source reliability) similarly affect accommodation in LLMs, explaining performance differences across three safety benchmarks that test models' ability to challenge harmful beliefs, spanning misinformation (Cancer-Myth, SAGE-Eval) and sycophancy (ELEPHANT). We further show that simple pragmatic interventions, such as adding the phrase "wait a minute", significantly improve performance on these benchmarks while preserving low false-positive rates. Our results highlight the importance of considering pragmatics for evaluating LLM behavior and improving LLM safety.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-07T22:47:24Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Myra Cheng</name>
+    </author>
+    <author>
+      <name>Robert D. Hawkins</name>
+    </author>
+    <author>
+      <name>Dan Jurafsky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.18400v2</id>
+    <title>Do LLMs dream of elephants (when told not to)? Latent concept association and associative memory in transformers</title>
+    <updated>2024-11-27T22:41:03Z</updated>
+    <link href="https://arxiv.org/abs/2406.18400v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.18400v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have the capacity to store and recall facts. Through experimentation with open-source models, we observe that this ability to retrieve facts can be easily manipulated by changing contexts, even without altering their factual meanings. These findings highlight that LLMs might behave like an associative memory model where certain tokens in the contexts serve as clues to retrieving facts. We mathematically explore this property by studying how transformers, the building blocks of LLMs, can complete such memory tasks. We study a simple latent concept association problem with a one-layer transformer and we show theoretically and empirically that the transformer gathers information using self-attention and uses the value matrix for associative memory.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-26T14:49:54Z</published>
+    <arxiv:comment>NeurIPS 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yibo Jiang</name>
+    </author>
+    <author>
+      <name>Goutham Rajendran</name>
+    </author>
+    <author>
+      <name>Pradeep Ravikumar</name>
+    </author>
+    <author>
+      <name>Bryon Aragam</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.06644v1</id>
+    <title>Elephants Never Forget: Testing Language Models for Memorization of Tabular Data</title>
+    <updated>2024-03-11T12:07:13Z</updated>
+    <link href="https://arxiv.org/abs/2403.06644v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.06644v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While many have shown how Large Language Models (LLMs) can be applied to a diverse set of tasks, the critical issues of data contamination and memorization are often glossed over. In this work, we address this concern for tabular data. Starting with simple qualitative tests for whether an LLM knows the names and values of features, we introduce a variety of different techniques to assess the degrees of contamination, including statistical tests for conditional distribution modeling and four tests that identify memorization. Our investigation reveals that LLMs are pre-trained on many popular tabular datasets. This exposure can lead to invalid performance evaluation on downstream tasks because the LLMs have, in effect, been fit to the test set. Interestingly, we also identify a regime where the language model reproduces important statistics of the data, but fails to reproduce the dataset verbatim. On these datasets, although seen during training, good performance on downstream tasks might not be due to overfitting. Our findings underscore the need for ensuring data integrity in machine learning tasks with LLMs. To facilitate future research, we release an open-source tool that can perform various tests for memorization \url{https://github.com/interpretml/LLM-Tabular-Memorization-Checker}.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-11T12:07:13Z</published>
+    <arxiv:comment>Table Representation Learning Workshop at NeurIPS 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Sebastian Bordt</name>
+    </author>
+    <author>
+      <name>Harsha Nori</name>
+    </author>
+    <author>
+      <name>Rich Caruana</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.28478v1</id>
+    <title>Blind Men and the Elephant: Probing the Epistemic Myopia of LLMs under Long-Tail Divergent Knowledge</title>
+    <updated>2026-08-28T16:06:01Z</updated>
+    <link href="https://arxiv.org/abs/2608.28478v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.28478v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Factual question answering (QA) typically assumes a single canonical answer, obscuring whether large language models (LLMs) retain divergent accounts of long-tail facts. To address this gap, we introduce ElephantBench, a closed-book knowledge probe comprising 1,094 questions generated through an auditable graph-based pipeline. The pipeline retrieves related documents from a low-exposure web corpus, identifies naturally occurring disagreements, and converts them into multi-account QA records. Each answer is verified against the originating documents and authoritative public web sources and is then reviewed by human annotators. Across 32 models, even the strongest model recovers both accounts on only 52.4% of questions, while on nearly all remaining questions it recalls one account but omits the other. Scaling model size and inference-time reasoning improve recall but do not eliminate this incompleteness. Corpus analysis further shows that exposure imbalance favors the dominant account, whereas greater minority-side exposure is associated with more complete recall. These findings establish ElephantBench as a reproducible knowledge probe for diagnosing epistemic myopia in parametric memory. More broadly, our graph-based benchmark construction pipeline provides an efficient and scalable way to turn long-tail corpora into source-traceable knowledge probes, supporting efforts to evaluate and advance the epistemic rigour of next-generation LLMs. Code is available at https://github.com/Tencent/ElephantBench.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-28T16:06:01Z</published>
+    <arxiv:comment>10 pages, 10 figurs, 1 table, under review</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Zhuoshi Pan</name>
+    </author>
+    <author>
+      <name>Junru Lu</name>
+    </author>
+    <author>
+      <name>Yan Qian</name>
+    </author>
+    <author>
+      <name>H. Vicky Zhao</name>
+    </author>
+    <author>
+      <name>Di Yin</name>
+    </author>
+    <author>
+      <name>Xing Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.09721v2</id>
+    <title>Finetuning CLIP to Reason about Pairwise Differences</title>
+    <updated>2025-07-04T18:25:46Z</updated>
+    <link href="https://arxiv.org/abs/2409.09721v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.09721v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language models (VLMs) such as CLIP are trained via contrastive learning between text and image pairs, resulting in aligned image and text embeddings that are useful for many downstream tasks. A notable drawback of CLIP, however, is that the resulting embedding space seems to lack some of the structure of its purely text-based alternatives. For instance, while text embeddings have long been noted to satisfy analogies in embedding space using vector arithmetic, CLIP has no such property. In this paper, we propose an approach to natively train CLIP in a contrastive manner to reason about differences in embedding space. We finetune CLIP so that text descriptions of differences between images correspond to their difference in image embedding space, using synthetically generated data with large language models on image-caption paired datasets. We first demonstrate that our approach yields significantly improved capabilities in ranking images by a certain attribute (e.g., elephants are larger than cats), which is useful in retrieval or constructing attribute-based classifiers, and improved zeroshot classification performance on many downstream image classification tasks. In addition, our approach enables a new mechanism for inference that we refer to as comparative prompting, where we leverage prior knowledge of text descriptions of differences between classes of interest, achieving even larger performance gains in classification. Finally, we illustrate that the resulting embeddings obey a larger degree of geometric properties in embedding space, such as in text-to-image generation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-15T13:02:14Z</published>
+    <arxiv:comment>30 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dylan Sam</name>
+    </author>
+    <author>
+      <name>Devin Willmott</name>
+    </author>
+    <author>
+      <name>Joao D. Semedo</name>
+    </author>
+    <author>
+      <name>J. Zico Kolter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.00368v2</id>
+    <title>TENT: A Declarative Slice Spraying Engine for Performant and Resilient Data Movement in Disaggregated LLM Serving</title>
+    <updated>2026-07-24T03:02:29Z</updated>
+    <link href="https://arxiv.org/abs/2604.00368v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.00368v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern GPU clusters rely on complex, heterogeneous interconnects. As large language model (LLM) serving shifts toward agentic reasoning, KVCache becomes a first-class mobile asset, driving frequent migrations and massive elephant flows that dominate the execution critical path. Operating Mooncake Transfer Engine (TE) on thousands of GPUs exposed a fundamental flaw in existing frameworks: imperative, early-binding path selection. This rigidity results in state-blind striping that ignores congestion and grey failures, leading to bandwidth stranding. This also produces operational fragility where routine faults require manual intervention.
+  We present TENT, a declarative orchestration engine that decouples transfer intent from physical execution. By abstracting interconnects into a unified resource pool, TENT shifts path resolution from initialization to slice-time late binding. Applications simply declare transfer intents, while TENT dynamically "sprays" fine-grained slices across rails based on real-time telemetry and predictive cost modeling. This orchestration eliminates head-of-line (HoL) blocking and enables transparent, sub-50 ms self-healing by rerouting slices around failures or degradations without application-level intervention.
+  TENT serves as the production data plane for LLM inference and reinforcement learning (RL) pipelines at multiple industrial clusters. Our evaluation shows that TE+ outperforms state-of-the-art baselines, including Mooncake TE, NIXL, and UCCL. In LLM inference with SGLang HiCache, TE+ achieves up to 1.36x higher throughput and 26% lower P90 time-to-first-token (TTFT) than Mooncake TE. In RL pipelines, TENT accelerates parameter updates in Moonshot Checkpoint Engine by 20-26%.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-01T01:29:03Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Feng Ren</name>
+    </author>
+    <author>
+      <name>Ruoyu Qin</name>
+    </author>
+    <author>
+      <name>Teng Ma</name>
+    </author>
+    <author>
+      <name>Shangming Cai</name>
+    </author>
+    <author>
+      <name>Zheng Liu</name>
+    </author>
+    <author>
+      <name>Chao Lei</name>
+    </author>
+    <author>
+      <name>Dejiang Zhu</name>
+    </author>
+    <author>
+      <name>Ke Yang</name>
+    </author>
+    <author>
+      <name>Zheming Li</name>
+    </author>
+    <author>
+      <name>Jialei Cui</name>
+    </author>
+    <author>
+      <name>Weixiao Huang</name>
+    </author>
+    <author>
+      <name>Yikai Zhao</name>
+    </author>
+    <author>
+      <name>Yineng Zhang</name>
+    </author>
+    <author>
+      <name>Hao Wu</name>
+    </author>
+    <author>
+      <name>Xiang Gao</name>
+    </author>
+    <author>
+      <name>Yuhao Fu</name>
+    </author>
+    <author>
+      <name>Jinlei Jiang</name>
+    </author>
+    <author>
+      <name>Yongwei Wu</name>
+    </author>
+    <author>
+      <name>Mingxing Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.01610v1</id>
+    <title>Automating the Analysis of Public Saliency and Attitudes towards Biodiversity from Digital Media</title>
+    <updated>2024-05-02T08:28:25Z</updated>
+    <link href="https://arxiv.org/abs/2405.01610v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.01610v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Measuring public attitudes toward wildlife provides crucial insights into our relationship with nature and helps monitor progress toward Global Biodiversity Framework targets. Yet, conducting such assessments at a global scale is challenging. Manually curating search terms for querying news and social media is tedious, costly, and can lead to biased results. Raw news and social media data returned from queries are often cluttered with irrelevant content and syndicated articles. We aim to overcome these challenges by leveraging modern Natural Language Processing (NLP) tools. We introduce a folk taxonomy approach for improved search term generation and employ cosine similarity on Term Frequency-Inverse Document Frequency vectors to filter syndicated articles. We also introduce an extensible relevance filtering pipeline which uses unsupervised learning to reveal common topics, followed by an open-source zero-shot Large Language Model (LLM) to assign topics to news article titles, which are then used to assign relevance. Finally, we conduct sentiment, topic, and volume analyses on resulting data. We illustrate our methodology with a case study of news and X (formerly Twitter) data before and during the COVID-19 pandemic for various mammal taxa, including bats, pangolins, elephants, and gorillas. During the data collection period, up to 62% of articles including keywords pertaining to bats were deemed irrelevant to biodiversity, underscoring the importance of relevance filtering. At the pandemic's onset, we observed increased volume and a significant sentiment shift toward horseshoe bats, which were implicated in the pandemic, but not for other focal taxa. The proposed methods open the door to conservation practitioners applying modern and emerging NLP tools, including LLMs "out of the box," to analyze public perceptions of biodiversity during current events or campaigns.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-02T08:28:25Z</published>
+    <arxiv:comment>v0.1, 21 pages with 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Noah Giebink</name>
+    </author>
+    <author>
+      <name>Amrita Gupta</name>
+    </author>
+    <author>
+      <name>Diogo Verìssimo</name>
+    </author>
+    <author>
+      <name>Charlotte H. Chang</name>
+    </author>
+    <author>
+      <name>Tony Chang</name>
+    </author>
+    <author>
+      <name>Angela Brennan</name>
+    </author>
+    <author>
+      <name>Brett Dickson</name>
+    </author>
+    <author>
+      <name>Alex Bowmer</name>
+    </author>
+    <author>
+      <name>Jonathan Baillie</name>
+    </author>
+  </entry>
+</feed>
